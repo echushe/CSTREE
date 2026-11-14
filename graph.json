@@ -1,0 +1,5097 @@
+{
+  "schema_version": 1,
+  "branches": {
+    "algorithms": "Data structures and algorithms",
+    "languages": "Programming languages",
+    "compilers": "Compilers and runtimes",
+    "design": "Software design and architecture",
+    "ai-development": "AI assisted development",
+    "databases": "Databases and storage",
+    "operating-systems": "Operating systems",
+    "distributed-systems": "Networks and distributed systems",
+    "engineering": "Engineering practice"
+  },
+  "nodes": [
+    {
+      "id": "agentic-development",
+      "type": "concept",
+      "title": "Agentic Software Development",
+      "aliases": [
+        "Coding agents",
+        "Agentic coding",
+        "Tool using agents"
+      ],
+      "domains": [
+        "ai-development"
+      ],
+      "branch": "ai-development",
+      "path": "concepts/agentic-development.md",
+      "external_references": []
+    },
+    {
+      "id": "ai-assisted-development",
+      "type": "concept",
+      "title": "AI Assisted Software Development",
+      "aliases": [
+        "AI coding",
+        "AI pair programming"
+      ],
+      "domains": [
+        "ai-development"
+      ],
+      "branch": "ai-development",
+      "path": "concepts/ai-assisted-development.md",
+      "external_references": []
+    },
+    {
+      "id": "ai-development-evidence",
+      "type": "reference",
+      "title": "AI Development Experience and Productivity Evidence",
+      "authors": [
+        "Andrej Karpathy",
+        "METR researchers",
+        "GitHub"
+      ],
+      "kind": "evidence",
+      "accessed": "2026-11-10",
+      "path": "references/ai-development-evidence.md",
+      "external_references": [
+        {
+          "label": "Karpathy firsthand MenuGen account April 2025",
+          "url": "https://karpathy.bearblog.dev/vibe-coding-menugen/"
+        },
+        {
+          "label": "METR early-2025 randomized study July 2025",
+          "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"
+        },
+        {
+          "label": "METR study-design update February 2026",
+          "url": "https://metr.org/blog/2026-02-24-uplift-update/"
+        },
+        {
+          "label": "GitHub application card for coding agents",
+          "url": "https://docs.github.com/en/copilot/responsible-use/agents"
+        }
+      ]
+    },
+    {
+      "id": "algorithm-analysis",
+      "type": "concept",
+      "title": "Algorithm Analysis",
+      "aliases": [
+        "Big O",
+        "Complexity",
+        "Amortized analysis"
+      ],
+      "domains": [
+        "algorithms"
+      ],
+      "branch": "algorithms",
+      "path": "concepts/algorithm-analysis.md",
+      "external_references": []
+    },
+    {
+      "id": "algorithms-reference",
+      "type": "reference",
+      "title": "Introduction to Algorithms",
+      "authors": [
+        "Thomas H. Cormen",
+        "Charles E. Leiserson",
+        "Ronald L. Rivest",
+        "Clifford Stein"
+      ],
+      "kind": "book",
+      "accessed": "2026-11-10",
+      "path": "references/algorithms-reference.md",
+      "external_references": [
+        {
+          "label": "Publisher and fourth edition contents",
+          "url": "https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/"
+        }
+      ]
+    },
+    {
+      "id": "api-design",
+      "type": "concept",
+      "title": "API Design and Contracts",
+      "aliases": [
+        "API contract",
+        "Schema evolution",
+        "Compatibility"
+      ],
+      "domains": [
+        "design"
+      ],
+      "branch": "design",
+      "path": "concepts/api-design.md",
+      "external_references": []
+    },
+    {
+      "id": "architecture",
+      "type": "concept",
+      "title": "Software Architecture",
+      "aliases": [
+        "Modular monolith",
+        "Microservices",
+        "Ports and adapters",
+        "ADR"
+      ],
+      "domains": [
+        "design"
+      ],
+      "branch": "design",
+      "path": "concepts/architecture.md",
+      "external_references": []
+    },
+    {
+      "id": "arrays-and-linked-lists",
+      "type": "concept",
+      "title": "Arrays and Linked Lists",
+      "aliases": [
+        "Array",
+        "Vector",
+        "Linked list"
+      ],
+      "domains": [
+        "algorithms"
+      ],
+      "branch": "algorithms",
+      "path": "concepts/arrays-and-linked-lists.md",
+      "external_references": []
+    },
+    {
+      "id": "behavioral-patterns",
+      "type": "concept",
+      "title": "Behavioral Design Patterns",
+      "aliases": [
+        "Strategy",
+        "State pattern",
+        "Command",
+        "Observer",
+        "Iterator",
+        "Visitor",
+        "Mediator",
+        "Memento",
+        "Template Method",
+        "Interpreter",
+        "Chain of Responsibility"
+      ],
+      "domains": [
+        "design"
+      ],
+      "branch": "design",
+      "path": "concepts/behavioral-patterns.md",
+      "external_references": []
+    },
+    {
+      "id": "bellman-1954-dynamic-programming",
+      "type": "paper",
+      "title": "Some Applications of the Theory of Dynamic Programming—A Review",
+      "authors": [
+        "Richard Bellman"
+      ],
+      "year": 1954,
+      "venue": "Journal of the Operations Research Society of America",
+      "selection": "dynamic-programming-foundation",
+      "path": "papers/bellman-1954-dynamic-programming.md",
+      "external_references": [
+        {
+          "label": "Publisher record",
+          "url": "https://pubsonline.informs.org/doi/10.1287/opre.2.3.275"
+        }
+      ]
+    },
+    {
+      "id": "build-and-dependencies",
+      "type": "concept",
+      "title": "Build Systems and Dependencies",
+      "aliases": [
+        "Build graph",
+        "Dependency management",
+        "Reproducible builds",
+        "Lockfiles"
+      ],
+      "domains": [
+        "engineering"
+      ],
+      "branch": "engineering",
+      "path": "concepts/build-and-dependencies.md",
+      "external_references": []
+    },
+    {
+      "id": "c",
+      "type": "concept",
+      "title": "C",
+      "aliases": [
+        "C language"
+      ],
+      "domains": [
+        "languages"
+      ],
+      "branch": "languages",
+      "path": "concepts/c.md",
+      "external_references": []
+    },
+    {
+      "id": "caching",
+      "type": "concept",
+      "title": "Caching",
+      "aliases": [
+        "Cache invalidation",
+        "TTL",
+        "LRU",
+        "Cache stampede"
+      ],
+      "domains": [
+        "distributed-systems"
+      ],
+      "branch": "distributed-systems",
+      "path": "concepts/caching.md",
+      "external_references": []
+    },
+    {
+      "id": "ci-cd",
+      "type": "concept",
+      "title": "Continuous Integration and Delivery",
+      "aliases": [
+        "CI",
+        "CD",
+        "Canary release",
+        "Deployment"
+      ],
+      "domains": [
+        "engineering"
+      ],
+      "branch": "engineering",
+      "path": "concepts/ci-cd.md",
+      "external_references": []
+    },
+    {
+      "id": "codd-1970-relational-model",
+      "type": "paper",
+      "title": "A Relational Model of Data for Large Shared Data Banks",
+      "authors": [
+        "E. F. Codd"
+      ],
+      "year": 1970,
+      "venue": "Communications of the ACM",
+      "selection": "relational-model-foundation",
+      "path": "papers/codd-1970-relational-model.md",
+      "external_references": [
+        {
+          "label": "IBM Research publication record",
+          "url": "https://research.ibm.com/publications/a-relational-model-of-data-for-large-shared-data-banks"
+        }
+      ]
+    },
+    {
+      "id": "compilers",
+      "type": "concept",
+      "title": "Compilers and Toolchains",
+      "aliases": [
+        "Compiler pipeline",
+        "Linker",
+        "Toolchain"
+      ],
+      "domains": [
+        "compilers"
+      ],
+      "branch": "compilers",
+      "path": "concepts/compilers.md",
+      "external_references": []
+    },
+    {
+      "id": "computer-networks",
+      "type": "concept",
+      "title": "Computer Networks",
+      "aliases": [
+        "TCP",
+        "UDP",
+        "IP",
+        "DNS",
+        "TLS"
+      ],
+      "domains": [
+        "distributed-systems"
+      ],
+      "branch": "distributed-systems",
+      "path": "concepts/computer-networks.md",
+      "external_references": []
+    },
+    {
+      "id": "consistency-models",
+      "type": "concept",
+      "title": "Consistency Models and CAP",
+      "aliases": [
+        "Linearizability",
+        "Eventual consistency",
+        "Causal consistency",
+        "CAP"
+      ],
+      "domains": [
+        "distributed-systems"
+      ],
+      "branch": "distributed-systems",
+      "path": "concepts/consistency-models.md",
+      "external_references": []
+    },
+    {
+      "id": "cpp",
+      "type": "concept",
+      "title": "C++",
+      "aliases": [
+        "C plus plus"
+      ],
+      "domains": [
+        "languages"
+      ],
+      "branch": "languages",
+      "path": "concepts/cpp.md",
+      "external_references": []
+    },
+    {
+      "id": "creational-patterns",
+      "type": "concept",
+      "title": "Creational Design Patterns",
+      "aliases": [
+        "Factory Method",
+        "Abstract Factory",
+        "Builder",
+        "Prototype",
+        "Singleton"
+      ],
+      "domains": [
+        "design"
+      ],
+      "branch": "design",
+      "path": "concepts/creational-patterns.md",
+      "external_references": []
+    },
+    {
+      "id": "csharp",
+      "type": "concept",
+      "title": "C#",
+      "aliases": [
+        "C sharp",
+        ".NET"
+      ],
+      "domains": [
+        "languages"
+      ],
+      "branch": "languages",
+      "path": "concepts/csharp.md",
+      "external_references": []
+    },
+    {
+      "id": "cstree",
+      "type": "hub",
+      "title": "CSTREE Software Engineering Knowledge Graph",
+      "aliases": [
+        "CSTREE"
+      ],
+      "domains": [
+        "algorithms",
+        "languages",
+        "compilers",
+        "design",
+        "ai-development",
+        "databases",
+        "operating-systems",
+        "distributed-systems",
+        "engineering"
+      ],
+      "path": "README.md",
+      "external_references": []
+    },
+    {
+      "id": "data-modeling",
+      "type": "concept",
+      "title": "Data Modeling and Schema Evolution",
+      "aliases": [
+        "Normalization",
+        "Schema migration",
+        "Domain modeling"
+      ],
+      "domains": [
+        "databases"
+      ],
+      "branch": "databases",
+      "path": "concepts/data-modeling.md",
+      "external_references": []
+    },
+    {
+      "id": "data-structures-and-algorithms",
+      "type": "concept",
+      "title": "Data Structures and Algorithms",
+      "aliases": [
+        "DSA"
+      ],
+      "domains": [
+        "algorithms"
+      ],
+      "branch": "algorithms",
+      "path": "concepts/data-structures-and-algorithms.md",
+      "external_references": []
+    },
+    {
+      "id": "databases",
+      "type": "concept",
+      "title": "Databases",
+      "aliases": [
+        "DBMS",
+        "Database systems"
+      ],
+      "domains": [
+        "databases"
+      ],
+      "branch": "databases",
+      "path": "concepts/databases.md",
+      "external_references": []
+    },
+    {
+      "id": "debugging-and-profiling",
+      "type": "concept",
+      "title": "Debugging and Profiling",
+      "aliases": [
+        "Debugger",
+        "Profiler",
+        "Flame graph",
+        "Root cause analysis"
+      ],
+      "domains": [
+        "engineering"
+      ],
+      "branch": "engineering",
+      "path": "concepts/debugging-and-profiling.md",
+      "external_references": []
+    },
+    {
+      "id": "design-patterns",
+      "type": "concept",
+      "title": "Design Patterns",
+      "aliases": [
+        "GoF",
+        "Gang of Four"
+      ],
+      "domains": [
+        "design"
+      ],
+      "branch": "design",
+      "path": "concepts/design-patterns.md",
+      "external_references": []
+    },
+    {
+      "id": "design-patterns-book",
+      "type": "reference",
+      "title": "Design Patterns Elements of Reusable Object-Oriented Software",
+      "authors": [
+        "Erich Gamma",
+        "Richard Helm",
+        "Ralph Johnson",
+        "John Vlissides"
+      ],
+      "kind": "book",
+      "accessed": "2026-11-10",
+      "path": "references/design-patterns-book.md",
+      "external_references": [
+        {
+          "label": "Publisher record and catalog contents",
+          "url": "https://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-9780201633610"
+        }
+      ]
+    },
+    {
+      "id": "discrete-mathematics",
+      "type": "concept",
+      "title": "Discrete Mathematics for Software",
+      "aliases": [
+        "Logic",
+        "Invariants",
+        "Proof by induction"
+      ],
+      "domains": [
+        "algorithms"
+      ],
+      "branch": "algorithms",
+      "path": "concepts/discrete-mathematics.md",
+      "external_references": []
+    },
+    {
+      "id": "distributed-systems",
+      "type": "concept",
+      "title": "Distributed Systems",
+      "aliases": [
+        "Partial failure",
+        "Safety and liveness"
+      ],
+      "domains": [
+        "distributed-systems"
+      ],
+      "branch": "distributed-systems",
+      "path": "concepts/distributed-systems.md",
+      "external_references": []
+    },
+    {
+      "id": "distributed-transactions",
+      "type": "concept",
+      "title": "Distributed Transactions and Sagas",
+      "aliases": [
+        "2PC",
+        "Two-phase commit",
+        "Saga",
+        "Transactional outbox"
+      ],
+      "domains": [
+        "distributed-systems"
+      ],
+      "branch": "distributed-systems",
+      "path": "concepts/distributed-transactions.md",
+      "external_references": []
+    },
+    {
+      "id": "dynamic-programming",
+      "type": "concept",
+      "title": "Dynamic Programming",
+      "aliases": [
+        "DP",
+        "Memoization",
+        "Tabulation"
+      ],
+      "domains": [
+        "algorithms"
+      ],
+      "branch": "algorithms",
+      "path": "concepts/dynamic-programming.md",
+      "external_references": []
+    },
+    {
+      "id": "file-systems",
+      "type": "concept",
+      "title": "File Systems and Persistence",
+      "aliases": [
+        "Files",
+        "Directories",
+        "fsync",
+        "Crash consistency"
+      ],
+      "domains": [
+        "operating-systems"
+      ],
+      "branch": "operating-systems",
+      "path": "concepts/file-systems.md",
+      "external_references": []
+    },
+    {
+      "id": "formal-methods",
+      "type": "concept",
+      "title": "Formal Methods and Verification",
+      "aliases": [
+        "Model checking",
+        "Verification",
+        "State machines",
+        "Safety",
+        "Liveness"
+      ],
+      "domains": [
+        "engineering"
+      ],
+      "branch": "engineering",
+      "path": "concepts/formal-methods.md",
+      "external_references": []
+    },
+    {
+      "id": "gilbert-lynch-2012-cap-perspectives",
+      "type": "paper",
+      "title": "Perspectives on the CAP Theorem",
+      "authors": [
+        "Seth Gilbert",
+        "Nancy A. Lynch"
+      ],
+      "year": 2012,
+      "venue": "Computer, IEEE",
+      "selection": "cap-theorem-clarification",
+      "path": "papers/gilbert-lynch-2012-cap-perspectives.md",
+      "external_references": [
+        {
+          "label": "Author-hosted review",
+          "url": "https://groups.csail.mit.edu/tds/papers/Gilbert/Brewer2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "go",
+      "type": "concept",
+      "title": "Go",
+      "aliases": [
+        "Golang"
+      ],
+      "domains": [
+        "languages"
+      ],
+      "branch": "languages",
+      "path": "concepts/go.md",
+      "external_references": []
+    },
+    {
+      "id": "graphs",
+      "type": "concept",
+      "title": "Graphs and Graph Algorithms",
+      "aliases": [
+        "BFS",
+        "DFS",
+        "DAG",
+        "Topological sort",
+        "Dijkstra"
+      ],
+      "domains": [
+        "algorithms"
+      ],
+      "branch": "algorithms",
+      "path": "concepts/graphs.md",
+      "external_references": []
+    },
+    {
+      "id": "greedy-algorithms",
+      "type": "concept",
+      "title": "Greedy Algorithms",
+      "aliases": [
+        "Greedy choice",
+        "Exchange argument"
+      ],
+      "domains": [
+        "algorithms"
+      ],
+      "branch": "algorithms",
+      "path": "concepts/greedy-algorithms.md",
+      "external_references": []
+    },
+    {
+      "id": "hash-tables",
+      "type": "concept",
+      "title": "Hash Tables",
+      "aliases": [
+        "Hash map",
+        "Dictionary",
+        "Hash set"
+      ],
+      "domains": [
+        "algorithms"
+      ],
+      "branch": "algorithms",
+      "path": "concepts/hash-tables.md",
+      "external_references": []
+    },
+    {
+      "id": "heaps",
+      "type": "concept",
+      "title": "Heaps and Priority Queues",
+      "aliases": [
+        "Binary heap",
+        "Priority queue"
+      ],
+      "domains": [
+        "algorithms"
+      ],
+      "branch": "algorithms",
+      "path": "concepts/heaps.md",
+      "external_references": []
+    },
+    {
+      "id": "http-and-rpc",
+      "type": "concept",
+      "title": "HTTP and Remote Procedure Calls",
+      "aliases": [
+        "HTTP",
+        "RPC",
+        "REST",
+        "gRPC"
+      ],
+      "domains": [
+        "distributed-systems"
+      ],
+      "branch": "distributed-systems",
+      "path": "concepts/http-and-rpc.md",
+      "external_references": []
+    },
+    {
+      "id": "http-semantics",
+      "type": "reference",
+      "title": "HTTP and Transport Specifications",
+      "authors": [
+        "IETF HTTP Working Group",
+        "IETF TCP Maintenance and Minor Extensions Working Group"
+      ],
+      "kind": "specification",
+      "accessed": "2026-11-10",
+      "path": "references/http-semantics.md",
+      "external_references": [
+        {
+          "label": "RFC 9110 HTTP Semantics",
+          "url": "https://www.rfc-editor.org/rfc/rfc9110"
+        },
+        {
+          "label": "RFC 9111 HTTP Caching",
+          "url": "https://www.rfc-editor.org/rfc/rfc9111"
+        },
+        {
+          "label": "RFC 9293 Transmission Control Protocol",
+          "url": "https://www.rfc-editor.org/rfc/rfc9293"
+        }
+      ]
+    },
+    {
+      "id": "indexes-and-query-planning",
+      "type": "concept",
+      "title": "Indexes and Query Planning",
+      "aliases": [
+        "B-tree index",
+        "Query optimizer",
+        "EXPLAIN",
+        "Execution plan"
+      ],
+      "domains": [
+        "databases"
+      ],
+      "branch": "databases",
+      "path": "concepts/indexes-and-query-planning.md",
+      "external_references": []
+    },
+    {
+      "id": "intermediate-representation",
+      "type": "concept",
+      "title": "Intermediate Representation and Optimization",
+      "aliases": [
+        "IR",
+        "SSA",
+        "Control-flow graph",
+        "Compiler optimization"
+      ],
+      "domains": [
+        "compilers"
+      ],
+      "branch": "compilers",
+      "path": "concepts/intermediate-representation.md",
+      "external_references": []
+    },
+    {
+      "id": "io-and-event-loops",
+      "type": "concept",
+      "title": "I/O and Event Loops",
+      "aliases": [
+        "Async I/O",
+        "Event loop",
+        "Nonblocking I/O",
+        "Futures"
+      ],
+      "domains": [
+        "operating-systems"
+      ],
+      "branch": "operating-systems",
+      "path": "concepts/io-and-event-loops.md",
+      "external_references": []
+    },
+    {
+      "id": "java",
+      "type": "concept",
+      "title": "Java",
+      "aliases": [
+        "JVM language"
+      ],
+      "domains": [
+        "languages"
+      ],
+      "branch": "languages",
+      "path": "concepts/java.md",
+      "external_references": []
+    },
+    {
+      "id": "javascript",
+      "type": "concept",
+      "title": "JavaScript",
+      "aliases": [
+        "JS",
+        "ECMAScript"
+      ],
+      "domains": [
+        "languages"
+      ],
+      "branch": "languages",
+      "path": "concepts/javascript.md",
+      "external_references": []
+    },
+    {
+      "id": "lamport-1978-time-clocks",
+      "type": "paper",
+      "title": "Time, Clocks, and the Ordering of Events in a Distributed System",
+      "authors": [
+        "Leslie Lamport"
+      ],
+      "year": 1978,
+      "venue": "Communications of the ACM",
+      "selection": "distributed-ordering-foundation",
+      "path": "papers/lamport-1978-time-clocks.md",
+      "external_references": [
+        {
+          "label": "Author-hosted paper",
+          "url": "https://lamport.azurewebsites.net/pubs/time-clocks.pdf"
+        }
+      ]
+    },
+    {
+      "id": "language-specifications",
+      "type": "reference",
+      "title": "Language Specifications and Official Guides",
+      "authors": [
+        "Language standards committees and language project maintainers"
+      ],
+      "kind": "specification",
+      "accessed": "2026-11-10",
+      "path": "references/language-specifications.md",
+      "external_references": [
+        {
+          "label": "C11 public committee draft N1570",
+          "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf"
+        },
+        {
+          "label": "C++ Core Guidelines",
+          "url": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+        },
+        {
+          "label": "Java language and JVM specifications",
+          "url": "https://docs.oracle.com/javase/specs/"
+        },
+        {
+          "label": "Python tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        },
+        {
+          "label": "C# language tour",
+          "url": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview"
+        },
+        {
+          "label": "Go specification",
+          "url": "https://go.dev/ref/spec"
+        },
+        {
+          "label": "The Rust Programming Language",
+          "url": "https://doc.rust-lang.org/book/"
+        },
+        {
+          "label": "ECMAScript specification",
+          "url": "https://tc39.es/ecma262/"
+        },
+        {
+          "label": "TypeScript handbook",
+          "url": "https://www.typescriptlang.org/docs/handbook/intro.html"
+        }
+      ]
+    },
+    {
+      "id": "llvm-tutorial",
+      "type": "reference",
+      "title": "LLVM Language Implementation Tutorial",
+      "authors": [
+        "The LLVM Project"
+      ],
+      "kind": "documentation",
+      "accessed": "2026-11-10",
+      "path": "references/llvm-tutorial.md",
+      "external_references": [
+        {
+          "label": "My First Language Frontend with LLVM",
+          "url": "https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html"
+        }
+      ]
+    },
+    {
+      "id": "memory-management",
+      "type": "concept",
+      "title": "Memory Management and Ownership",
+      "aliases": [
+        "Ownership",
+        "RAII",
+        "Garbage collection",
+        "Lifetimes"
+      ],
+      "domains": [
+        "languages"
+      ],
+      "branch": "languages",
+      "path": "concepts/memory-management.md",
+      "external_references": []
+    },
+    {
+      "id": "messaging-and-streams",
+      "type": "concept",
+      "title": "Messaging and Event Streams",
+      "aliases": [
+        "Message queue",
+        "Event streaming",
+        "Pub/sub",
+        "Delivery semantics"
+      ],
+      "domains": [
+        "distributed-systems"
+      ],
+      "branch": "distributed-systems",
+      "path": "concepts/messaging-and-streams.md",
+      "external_references": []
+    },
+    {
+      "id": "nosql",
+      "type": "concept",
+      "title": "Nonrelational Data Models",
+      "aliases": [
+        "NoSQL",
+        "Document databases",
+        "Key-value stores",
+        "Graph databases"
+      ],
+      "domains": [
+        "databases"
+      ],
+      "branch": "databases",
+      "path": "concepts/nosql.md",
+      "external_references": []
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "title": "Observability and Reliability",
+      "aliases": [
+        "Logs",
+        "Metrics",
+        "Tracing",
+        "SLI",
+        "SLO",
+        "Error budget"
+      ],
+      "domains": [
+        "engineering"
+      ],
+      "branch": "engineering",
+      "path": "concepts/observability.md",
+      "external_references": []
+    },
+    {
+      "id": "ongaro-2014-raft",
+      "type": "paper",
+      "title": "In Search of an Understandable Consensus Algorithm",
+      "authors": [
+        "Diego Ongaro",
+        "John Ousterhout"
+      ],
+      "year": 2014,
+      "venue": "USENIX Annual Technical Conference",
+      "selection": "replicated-log-consensus-milestone",
+      "path": "papers/ongaro-2014-raft.md",
+      "external_references": [
+        {
+          "label": "Author-hosted extended paper",
+          "url": "https://raft.github.io/raft.pdf"
+        },
+        {
+          "label": "Raft authors project",
+          "url": "https://raft.github.io/"
+        }
+      ]
+    },
+    {
+      "id": "operating-systems",
+      "type": "concept",
+      "title": "Operating Systems",
+      "aliases": [
+        "OS",
+        "Kernel",
+        "System calls"
+      ],
+      "domains": [
+        "operating-systems"
+      ],
+      "branch": "operating-systems",
+      "path": "concepts/operating-systems.md",
+      "external_references": []
+    },
+    {
+      "id": "operating-systems-book",
+      "type": "reference",
+      "title": "Operating Systems Three Easy Pieces",
+      "authors": [
+        "Remzi H. Arpaci-Dusseau",
+        "Andrea C. Arpaci-Dusseau"
+      ],
+      "kind": "book",
+      "accessed": "2026-11-10",
+      "path": "references/operating-systems-book.md",
+      "external_references": [
+        {
+          "label": "Author-hosted book and free chapters",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/"
+        }
+      ]
+    },
+    {
+      "id": "parsing-and-asts",
+      "type": "concept",
+      "title": "Parsing and Abstract Syntax Trees",
+      "aliases": [
+        "Parser",
+        "Lexer",
+        "AST",
+        "Grammar"
+      ],
+      "domains": [
+        "compilers"
+      ],
+      "branch": "compilers",
+      "path": "concepts/parsing-and-asts.md",
+      "external_references": []
+    },
+    {
+      "id": "partitioning-and-sharding",
+      "type": "concept",
+      "title": "Partitioning and Sharding",
+      "aliases": [
+        "Sharding",
+        "Partition key",
+        "Consistent hashing",
+        "Hot partitions"
+      ],
+      "domains": [
+        "distributed-systems"
+      ],
+      "branch": "distributed-systems",
+      "path": "concepts/partitioning-and-sharding.md",
+      "external_references": []
+    },
+    {
+      "id": "performance-engineering",
+      "type": "concept",
+      "title": "Performance Engineering",
+      "aliases": [
+        "Benchmarking",
+        "Little's law",
+        "Amdahl's law",
+        "Latency",
+        "Throughput"
+      ],
+      "domains": [
+        "engineering"
+      ],
+      "branch": "engineering",
+      "path": "concepts/performance-engineering.md",
+      "external_references": []
+    },
+    {
+      "id": "postgresql-documentation",
+      "type": "reference",
+      "title": "PostgreSQL Database Documentation",
+      "authors": [
+        "The PostgreSQL Global Development Group"
+      ],
+      "kind": "documentation",
+      "accessed": "2026-11-10",
+      "path": "references/postgresql-documentation.md",
+      "external_references": [
+        {
+          "label": "PostgreSQL 18 manual",
+          "url": "https://www.postgresql.org/docs/18/index.html"
+        },
+        {
+          "label": "SQL tutorial",
+          "url": "https://www.postgresql.org/docs/18/tutorial-sql.html"
+        },
+        {
+          "label": "Transaction isolation",
+          "url": "https://www.postgresql.org/docs/18/transaction-iso.html"
+        },
+        {
+          "label": "Indexes",
+          "url": "https://www.postgresql.org/docs/18/indexes.html"
+        },
+        {
+          "label": "Using EXPLAIN",
+          "url": "https://www.postgresql.org/docs/18/using-explain.html"
+        },
+        {
+          "label": "Write-ahead logging",
+          "url": "https://www.postgresql.org/docs/18/wal-intro.html"
+        },
+        {
+          "label": "Two-phase transactions",
+          "url": "https://www.postgresql.org/docs/18/two-phase.html"
+        },
+        {
+          "label": "JSON types",
+          "url": "https://www.postgresql.org/docs/18/datatype-json.html"
+        }
+      ]
+    },
+    {
+      "id": "processes-and-threads",
+      "type": "concept",
+      "title": "Processes and Threads",
+      "aliases": [
+        "Process",
+        "Thread",
+        "Scheduling",
+        "Concurrency",
+        "Parallelism"
+      ],
+      "domains": [
+        "operating-systems"
+      ],
+      "branch": "operating-systems",
+      "path": "concepts/processes-and-threads.md",
+      "external_references": []
+    },
+    {
+      "id": "programming-languages",
+      "type": "concept",
+      "title": "Programming Languages",
+      "aliases": [
+        "PL",
+        "Language semantics"
+      ],
+      "domains": [
+        "languages"
+      ],
+      "branch": "languages",
+      "path": "concepts/programming-languages.md",
+      "external_references": []
+    },
+    {
+      "id": "programming-paradigms",
+      "type": "concept",
+      "title": "Programming Paradigms",
+      "aliases": [
+        "OOP",
+        "Functional programming",
+        "Imperative programming",
+        "Declarative programming"
+      ],
+      "domains": [
+        "languages"
+      ],
+      "branch": "languages",
+      "path": "concepts/programming-paradigms.md",
+      "external_references": []
+    },
+    {
+      "id": "python",
+      "type": "concept",
+      "title": "Python",
+      "aliases": [
+        "Python language"
+      ],
+      "domains": [
+        "languages"
+      ],
+      "branch": "languages",
+      "path": "concepts/python.md",
+      "external_references": []
+    },
+    {
+      "id": "queues",
+      "type": "concept",
+      "title": "Queues and Deques",
+      "aliases": [
+        "FIFO",
+        "Deque",
+        "Ring buffer"
+      ],
+      "domains": [
+        "algorithms"
+      ],
+      "branch": "algorithms",
+      "path": "concepts/queues.md",
+      "external_references": []
+    },
+    {
+      "id": "recursion-and-backtracking",
+      "type": "concept",
+      "title": "Recursion and Backtracking",
+      "aliases": [
+        "Divide and conquer",
+        "Backtracking",
+        "Recursion"
+      ],
+      "domains": [
+        "algorithms"
+      ],
+      "branch": "algorithms",
+      "path": "concepts/recursion-and-backtracking.md",
+      "external_references": []
+    },
+    {
+      "id": "relational-model-and-sql",
+      "type": "concept",
+      "title": "The Relational Model and SQL",
+      "aliases": [
+        "SQL",
+        "Relational algebra",
+        "Joins",
+        "Keys"
+      ],
+      "domains": [
+        "databases"
+      ],
+      "branch": "databases",
+      "path": "concepts/relational-model-and-sql.md",
+      "external_references": []
+    },
+    {
+      "id": "replication-and-consensus",
+      "type": "concept",
+      "title": "Replication and Consensus",
+      "aliases": [
+        "Raft",
+        "Paxos",
+        "Quorums",
+        "Replicated state machine"
+      ],
+      "domains": [
+        "distributed-systems"
+      ],
+      "branch": "distributed-systems",
+      "path": "concepts/replication-and-consensus.md",
+      "external_references": []
+    },
+    {
+      "id": "requirements-and-specifications",
+      "type": "concept",
+      "title": "Requirements and Specifications",
+      "aliases": [
+        "Acceptance criteria",
+        "Invariants",
+        "Nonfunctional requirements"
+      ],
+      "domains": [
+        "engineering"
+      ],
+      "branch": "engineering",
+      "path": "concepts/requirements-and-specifications.md",
+      "external_references": []
+    },
+    {
+      "id": "resilience-and-idempotency",
+      "type": "concept",
+      "title": "Resilience and Idempotency",
+      "aliases": [
+        "Retries",
+        "Backpressure",
+        "Circuit breaker",
+        "Idempotency key",
+        "Timeouts"
+      ],
+      "domains": [
+        "distributed-systems"
+      ],
+      "branch": "distributed-systems",
+      "path": "concepts/resilience-and-idempotency.md",
+      "external_references": []
+    },
+    {
+      "id": "runtimes-and-execution",
+      "type": "concept",
+      "title": "Runtimes and Program Execution",
+      "aliases": [
+        "JIT",
+        "Bytecode",
+        "VM",
+        "ABI"
+      ],
+      "domains": [
+        "compilers"
+      ],
+      "branch": "compilers",
+      "path": "concepts/runtimes-and-execution.md",
+      "external_references": []
+    },
+    {
+      "id": "rust",
+      "type": "concept",
+      "title": "Rust",
+      "aliases": [
+        "Borrow checker",
+        "Rust language"
+      ],
+      "domains": [
+        "languages"
+      ],
+      "branch": "languages",
+      "path": "concepts/rust.md",
+      "external_references": []
+    },
+    {
+      "id": "searching",
+      "type": "concept",
+      "title": "Searching and Binary Search",
+      "aliases": [
+        "Binary search",
+        "Lower bound"
+      ],
+      "domains": [
+        "algorithms"
+      ],
+      "branch": "algorithms",
+      "path": "concepts/searching.md",
+      "external_references": []
+    },
+    {
+      "id": "security-engineering",
+      "type": "concept",
+      "title": "Security Engineering",
+      "aliases": [
+        "Threat modeling",
+        "Authentication",
+        "Authorization",
+        "Application security",
+        "Least privilege"
+      ],
+      "domains": [
+        "engineering"
+      ],
+      "branch": "engineering",
+      "path": "concepts/security-engineering.md",
+      "external_references": []
+    },
+    {
+      "id": "security-guides",
+      "type": "reference",
+      "title": "OWASP Application Security Verification Standard",
+      "authors": [
+        "OWASP ASVS project contributors"
+      ],
+      "kind": "guide",
+      "accessed": "2026-11-10",
+      "path": "references/security-guides.md",
+      "external_references": [
+        {
+          "label": "ASVS overview and versioned downloads",
+          "url": "https://asvs.owasp.org/"
+        }
+      ]
+    },
+    {
+      "id": "software-construction",
+      "type": "reference",
+      "title": "Software Engineering and Git Guides",
+      "authors": [
+        "Titus Winters",
+        "Tom Manshreck",
+        "Hyrum Wright",
+        "Scott Chacon",
+        "Ben Straub"
+      ],
+      "kind": "guide",
+      "accessed": "2026-11-10",
+      "path": "references/software-construction.md",
+      "external_references": [
+        {
+          "label": "Software Engineering at Google",
+          "url": "https://abseil.io/resources/swe-book/html/toc.html"
+        },
+        {
+          "label": "Pro Git second edition",
+          "url": "https://git-scm.com/book/en/v2"
+        }
+      ]
+    },
+    {
+      "id": "software-design",
+      "type": "concept",
+      "title": "Software Design Principles",
+      "aliases": [
+        "SOLID",
+        "Encapsulation",
+        "Cohesion",
+        "Coupling",
+        "Dependency inversion"
+      ],
+      "domains": [
+        "design"
+      ],
+      "branch": "design",
+      "path": "concepts/software-design.md",
+      "external_references": []
+    },
+    {
+      "id": "sorting",
+      "type": "concept",
+      "title": "Sorting Algorithms",
+      "aliases": [
+        "Merge sort",
+        "Quicksort",
+        "Heapsort",
+        "Stable sorting"
+      ],
+      "domains": [
+        "algorithms"
+      ],
+      "branch": "algorithms",
+      "path": "concepts/sorting.md",
+      "external_references": []
+    },
+    {
+      "id": "sre-book",
+      "type": "reference",
+      "title": "Site Reliability Engineering",
+      "authors": [
+        "Betsy Beyer",
+        "Chris Jones",
+        "Jennifer Petoff",
+        "Niall Richard Murphy"
+      ],
+      "kind": "book",
+      "accessed": "2026-11-10",
+      "path": "references/sre-book.md",
+      "external_references": [
+        {
+          "label": "Book contents",
+          "url": "https://sre.google/sre-book/table-of-contents/"
+        },
+        {
+          "label": "Monitoring distributed systems",
+          "url": "https://sre.google/sre-book/monitoring-distributed-systems/"
+        },
+        {
+          "label": "Handling overload",
+          "url": "https://sre.google/sre-book/handling-overload/"
+        },
+        {
+          "label": "Distributed consensus for reliability",
+          "url": "https://sre.google/sre-book/managing-critical-state/"
+        }
+      ]
+    },
+    {
+      "id": "stacks",
+      "type": "concept",
+      "title": "Stacks",
+      "aliases": [
+        "LIFO"
+      ],
+      "domains": [
+        "algorithms"
+      ],
+      "branch": "algorithms",
+      "path": "concepts/stacks.md",
+      "external_references": []
+    },
+    {
+      "id": "storage-and-recovery",
+      "type": "concept",
+      "title": "Database Storage and Recovery",
+      "aliases": [
+        "WAL",
+        "Write-ahead log",
+        "LSM tree",
+        "Recovery",
+        "Buffer pool"
+      ],
+      "domains": [
+        "databases"
+      ],
+      "branch": "databases",
+      "path": "concepts/storage-and-recovery.md",
+      "external_references": []
+    },
+    {
+      "id": "structural-patterns",
+      "type": "concept",
+      "title": "Structural Design Patterns",
+      "aliases": [
+        "Adapter",
+        "Bridge",
+        "Composite",
+        "Decorator",
+        "Facade",
+        "Flyweight",
+        "Proxy"
+      ],
+      "domains": [
+        "design"
+      ],
+      "branch": "design",
+      "path": "concepts/structural-patterns.md",
+      "external_references": []
+    },
+    {
+      "id": "synchronization",
+      "type": "concept",
+      "title": "Synchronization and Concurrency Control",
+      "aliases": [
+        "Mutex",
+        "Semaphore",
+        "Condition variable",
+        "Data races",
+        "Deadlock",
+        "Atomics"
+      ],
+      "domains": [
+        "operating-systems"
+      ],
+      "branch": "operating-systems",
+      "path": "concepts/synchronization.md",
+      "external_references": []
+    },
+    {
+      "id": "testing",
+      "type": "concept",
+      "title": "Software Testing",
+      "aliases": [
+        "Unit tests",
+        "Integration tests",
+        "Property-based testing",
+        "Test oracle"
+      ],
+      "domains": [
+        "engineering"
+      ],
+      "branch": "engineering",
+      "path": "concepts/testing.md",
+      "external_references": []
+    },
+    {
+      "id": "time-and-ordering",
+      "type": "concept",
+      "title": "Time and Ordering",
+      "aliases": [
+        "Lamport clock",
+        "Vector clock",
+        "Happens-before",
+        "Logical clocks"
+      ],
+      "domains": [
+        "distributed-systems"
+      ],
+      "branch": "distributed-systems",
+      "path": "concepts/time-and-ordering.md",
+      "external_references": []
+    },
+    {
+      "id": "transactions",
+      "type": "concept",
+      "title": "Transactions and Isolation",
+      "aliases": [
+        "ACID",
+        "MVCC",
+        "Isolation",
+        "Serializability",
+        "Write skew"
+      ],
+      "domains": [
+        "databases"
+      ],
+      "branch": "databases",
+      "path": "concepts/transactions.md",
+      "external_references": []
+    },
+    {
+      "id": "trees",
+      "type": "concept",
+      "title": "Trees and Search Trees",
+      "aliases": [
+        "Binary search tree",
+        "BST",
+        "B-tree",
+        "Trie"
+      ],
+      "domains": [
+        "algorithms"
+      ],
+      "branch": "algorithms",
+      "path": "concepts/trees.md",
+      "external_references": []
+    },
+    {
+      "id": "type-systems",
+      "type": "concept",
+      "title": "Type Systems",
+      "aliases": [
+        "Static typing",
+        "Dynamic typing",
+        "Generics",
+        "Algebraic data types"
+      ],
+      "domains": [
+        "languages"
+      ],
+      "branch": "languages",
+      "path": "concepts/type-systems.md",
+      "external_references": []
+    },
+    {
+      "id": "typescript",
+      "type": "concept",
+      "title": "TypeScript",
+      "aliases": [
+        "TS"
+      ],
+      "domains": [
+        "languages"
+      ],
+      "branch": "languages",
+      "path": "concepts/typescript.md",
+      "external_references": []
+    },
+    {
+      "id": "version-control",
+      "type": "concept",
+      "title": "Version Control and Git",
+      "aliases": [
+        "Git",
+        "Commits",
+        "Branches",
+        "Merge",
+        "Rebase"
+      ],
+      "domains": [
+        "engineering"
+      ],
+      "branch": "engineering",
+      "path": "concepts/version-control.md",
+      "external_references": []
+    },
+    {
+      "id": "vibe-programming",
+      "type": "concept",
+      "title": "Vibe Programming and Vibe Coding",
+      "aliases": [
+        "Vibe coding",
+        "Vibe programming"
+      ],
+      "domains": [
+        "ai-development"
+      ],
+      "branch": "ai-development",
+      "path": "concepts/vibe-programming.md",
+      "external_references": []
+    },
+    {
+      "id": "virtual-memory",
+      "type": "concept",
+      "title": "Virtual Memory",
+      "aliases": [
+        "Paging",
+        "Page fault",
+        "TLB",
+        "Address space"
+      ],
+      "domains": [
+        "operating-systems"
+      ],
+      "branch": "operating-systems",
+      "path": "concepts/virtual-memory.md",
+      "external_references": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "agentic-development",
+      "relation": "compares_with",
+      "target": "vibe-programming"
+    },
+    {
+      "source": "agentic-development",
+      "relation": "related_to",
+      "target": "ci-cd"
+    },
+    {
+      "source": "agentic-development",
+      "relation": "related_to",
+      "target": "observability"
+    },
+    {
+      "source": "agentic-development",
+      "relation": "related_to",
+      "target": "security-engineering"
+    },
+    {
+      "source": "agentic-development",
+      "relation": "requires",
+      "target": "ai-assisted-development"
+    },
+    {
+      "source": "agentic-development",
+      "relation": "requires",
+      "target": "build-and-dependencies"
+    },
+    {
+      "source": "agentic-development",
+      "relation": "requires",
+      "target": "version-control"
+    },
+    {
+      "source": "agentic-development",
+      "relation": "supported_by",
+      "target": "ai-development-evidence"
+    },
+    {
+      "source": "ai-assisted-development",
+      "relation": "contains",
+      "target": "agentic-development"
+    },
+    {
+      "source": "ai-assisted-development",
+      "relation": "contains",
+      "target": "vibe-programming"
+    },
+    {
+      "source": "ai-assisted-development",
+      "relation": "related_to",
+      "target": "security-engineering"
+    },
+    {
+      "source": "ai-assisted-development",
+      "relation": "related_to",
+      "target": "version-control"
+    },
+    {
+      "source": "ai-assisted-development",
+      "relation": "requires",
+      "target": "programming-languages"
+    },
+    {
+      "source": "ai-assisted-development",
+      "relation": "requires",
+      "target": "requirements-and-specifications"
+    },
+    {
+      "source": "ai-assisted-development",
+      "relation": "requires",
+      "target": "testing"
+    },
+    {
+      "source": "ai-assisted-development",
+      "relation": "supported_by",
+      "target": "ai-development-evidence"
+    },
+    {
+      "source": "ai-development-evidence",
+      "relation": "explains",
+      "target": "agentic-development"
+    },
+    {
+      "source": "ai-development-evidence",
+      "relation": "explains",
+      "target": "ai-assisted-development"
+    },
+    {
+      "source": "ai-development-evidence",
+      "relation": "explains",
+      "target": "vibe-programming"
+    },
+    {
+      "source": "algorithm-analysis",
+      "relation": "requires",
+      "target": "discrete-mathematics"
+    },
+    {
+      "source": "algorithm-analysis",
+      "relation": "supported_by",
+      "target": "algorithms-reference"
+    },
+    {
+      "source": "algorithm-analysis",
+      "relation": "used_by",
+      "target": "dynamic-programming"
+    },
+    {
+      "source": "algorithm-analysis",
+      "relation": "used_by",
+      "target": "performance-engineering"
+    },
+    {
+      "source": "algorithm-analysis",
+      "relation": "used_by",
+      "target": "sorting"
+    },
+    {
+      "source": "algorithms-reference",
+      "relation": "explains",
+      "target": "algorithm-analysis"
+    },
+    {
+      "source": "algorithms-reference",
+      "relation": "explains",
+      "target": "data-structures-and-algorithms"
+    },
+    {
+      "source": "algorithms-reference",
+      "relation": "explains",
+      "target": "dynamic-programming"
+    },
+    {
+      "source": "algorithms-reference",
+      "relation": "explains",
+      "target": "graphs"
+    },
+    {
+      "source": "api-design",
+      "relation": "related_to",
+      "target": "http-and-rpc"
+    },
+    {
+      "source": "api-design",
+      "relation": "related_to",
+      "target": "resilience-and-idempotency"
+    },
+    {
+      "source": "api-design",
+      "relation": "related_to",
+      "target": "security-engineering"
+    },
+    {
+      "source": "api-design",
+      "relation": "related_to",
+      "target": "testing"
+    },
+    {
+      "source": "api-design",
+      "relation": "requires",
+      "target": "software-design"
+    },
+    {
+      "source": "api-design",
+      "relation": "requires",
+      "target": "type-systems"
+    },
+    {
+      "source": "api-design",
+      "relation": "supported_by",
+      "target": "http-semantics"
+    },
+    {
+      "source": "api-design",
+      "relation": "supported_by",
+      "target": "software-construction"
+    },
+    {
+      "source": "architecture",
+      "relation": "related_to",
+      "target": "data-modeling"
+    },
+    {
+      "source": "architecture",
+      "relation": "related_to",
+      "target": "distributed-systems"
+    },
+    {
+      "source": "architecture",
+      "relation": "related_to",
+      "target": "observability"
+    },
+    {
+      "source": "architecture",
+      "relation": "related_to",
+      "target": "security-engineering"
+    },
+    {
+      "source": "architecture",
+      "relation": "requires",
+      "target": "software-design"
+    },
+    {
+      "source": "architecture",
+      "relation": "supported_by",
+      "target": "software-construction"
+    },
+    {
+      "source": "architecture",
+      "relation": "supported_by",
+      "target": "sre-book"
+    },
+    {
+      "source": "arrays-and-linked-lists",
+      "relation": "related_to",
+      "target": "memory-management"
+    },
+    {
+      "source": "arrays-and-linked-lists",
+      "relation": "requires",
+      "target": "algorithm-analysis"
+    },
+    {
+      "source": "arrays-and-linked-lists",
+      "relation": "supported_by",
+      "target": "algorithms-reference"
+    },
+    {
+      "source": "arrays-and-linked-lists",
+      "relation": "used_by",
+      "target": "hash-tables"
+    },
+    {
+      "source": "arrays-and-linked-lists",
+      "relation": "used_by",
+      "target": "queues"
+    },
+    {
+      "source": "arrays-and-linked-lists",
+      "relation": "used_by",
+      "target": "stacks"
+    },
+    {
+      "source": "behavioral-patterns",
+      "relation": "related_to",
+      "target": "messaging-and-streams"
+    },
+    {
+      "source": "behavioral-patterns",
+      "relation": "related_to",
+      "target": "parsing-and-asts"
+    },
+    {
+      "source": "behavioral-patterns",
+      "relation": "related_to",
+      "target": "stacks"
+    },
+    {
+      "source": "behavioral-patterns",
+      "relation": "requires",
+      "target": "design-patterns"
+    },
+    {
+      "source": "behavioral-patterns",
+      "relation": "supported_by",
+      "target": "design-patterns-book"
+    },
+    {
+      "source": "bellman-1954-dynamic-programming",
+      "relation": "explains",
+      "target": "dynamic-programming"
+    },
+    {
+      "source": "build-and-dependencies",
+      "relation": "related_to",
+      "target": "ci-cd"
+    },
+    {
+      "source": "build-and-dependencies",
+      "relation": "related_to",
+      "target": "security-engineering"
+    },
+    {
+      "source": "build-and-dependencies",
+      "relation": "related_to",
+      "target": "version-control"
+    },
+    {
+      "source": "build-and-dependencies",
+      "relation": "requires",
+      "target": "compilers"
+    },
+    {
+      "source": "build-and-dependencies",
+      "relation": "requires",
+      "target": "graphs"
+    },
+    {
+      "source": "build-and-dependencies",
+      "relation": "supported_by",
+      "target": "software-construction"
+    },
+    {
+      "source": "c",
+      "relation": "compares_with",
+      "target": "cpp"
+    },
+    {
+      "source": "c",
+      "relation": "compares_with",
+      "target": "rust"
+    },
+    {
+      "source": "c",
+      "relation": "related_to",
+      "target": "compilers"
+    },
+    {
+      "source": "c",
+      "relation": "related_to",
+      "target": "operating-systems"
+    },
+    {
+      "source": "c",
+      "relation": "requires",
+      "target": "memory-management"
+    },
+    {
+      "source": "c",
+      "relation": "supported_by",
+      "target": "language-specifications"
+    },
+    {
+      "source": "caching",
+      "relation": "related_to",
+      "target": "consistency-models"
+    },
+    {
+      "source": "caching",
+      "relation": "related_to",
+      "target": "http-and-rpc"
+    },
+    {
+      "source": "caching",
+      "relation": "related_to",
+      "target": "performance-engineering"
+    },
+    {
+      "source": "caching",
+      "relation": "requires",
+      "target": "distributed-systems"
+    },
+    {
+      "source": "caching",
+      "relation": "requires",
+      "target": "hash-tables"
+    },
+    {
+      "source": "caching",
+      "relation": "supported_by",
+      "target": "http-semantics"
+    },
+    {
+      "source": "caching",
+      "relation": "supported_by",
+      "target": "sre-book"
+    },
+    {
+      "source": "ci-cd",
+      "relation": "related_to",
+      "target": "data-modeling"
+    },
+    {
+      "source": "ci-cd",
+      "relation": "related_to",
+      "target": "observability"
+    },
+    {
+      "source": "ci-cd",
+      "relation": "related_to",
+      "target": "resilience-and-idempotency"
+    },
+    {
+      "source": "ci-cd",
+      "relation": "requires",
+      "target": "build-and-dependencies"
+    },
+    {
+      "source": "ci-cd",
+      "relation": "requires",
+      "target": "testing"
+    },
+    {
+      "source": "ci-cd",
+      "relation": "requires",
+      "target": "version-control"
+    },
+    {
+      "source": "ci-cd",
+      "relation": "supported_by",
+      "target": "software-construction"
+    },
+    {
+      "source": "ci-cd",
+      "relation": "supported_by",
+      "target": "sre-book"
+    },
+    {
+      "source": "codd-1970-relational-model",
+      "relation": "explains",
+      "target": "data-modeling"
+    },
+    {
+      "source": "codd-1970-relational-model",
+      "relation": "explains",
+      "target": "databases"
+    },
+    {
+      "source": "codd-1970-relational-model",
+      "relation": "explains",
+      "target": "relational-model-and-sql"
+    },
+    {
+      "source": "compilers",
+      "relation": "contains",
+      "target": "intermediate-representation"
+    },
+    {
+      "source": "compilers",
+      "relation": "contains",
+      "target": "parsing-and-asts"
+    },
+    {
+      "source": "compilers",
+      "relation": "contains",
+      "target": "runtimes-and-execution"
+    },
+    {
+      "source": "compilers",
+      "relation": "related_to",
+      "target": "build-and-dependencies"
+    },
+    {
+      "source": "compilers",
+      "relation": "requires",
+      "target": "programming-languages"
+    },
+    {
+      "source": "compilers",
+      "relation": "requires",
+      "target": "trees"
+    },
+    {
+      "source": "compilers",
+      "relation": "supported_by",
+      "target": "llvm-tutorial"
+    },
+    {
+      "source": "compilers",
+      "relation": "uses",
+      "target": "hash-tables"
+    },
+    {
+      "source": "compilers",
+      "relation": "uses",
+      "target": "type-systems"
+    },
+    {
+      "source": "computer-networks",
+      "relation": "related_to",
+      "target": "distributed-systems"
+    },
+    {
+      "source": "computer-networks",
+      "relation": "related_to",
+      "target": "http-and-rpc"
+    },
+    {
+      "source": "computer-networks",
+      "relation": "related_to",
+      "target": "io-and-event-loops"
+    },
+    {
+      "source": "computer-networks",
+      "relation": "related_to",
+      "target": "security-engineering"
+    },
+    {
+      "source": "computer-networks",
+      "relation": "requires",
+      "target": "processes-and-threads"
+    },
+    {
+      "source": "computer-networks",
+      "relation": "supported_by",
+      "target": "http-semantics"
+    },
+    {
+      "source": "consistency-models",
+      "relation": "related_to",
+      "target": "caching"
+    },
+    {
+      "source": "consistency-models",
+      "relation": "related_to",
+      "target": "replication-and-consensus"
+    },
+    {
+      "source": "consistency-models",
+      "relation": "related_to",
+      "target": "time-and-ordering"
+    },
+    {
+      "source": "consistency-models",
+      "relation": "requires",
+      "target": "distributed-systems"
+    },
+    {
+      "source": "consistency-models",
+      "relation": "requires",
+      "target": "transactions"
+    },
+    {
+      "source": "consistency-models",
+      "relation": "supported_by",
+      "target": "gilbert-lynch-2012-cap-perspectives"
+    },
+    {
+      "source": "consistency-models",
+      "relation": "supported_by",
+      "target": "postgresql-documentation"
+    },
+    {
+      "source": "cpp",
+      "relation": "compares_with",
+      "target": "c"
+    },
+    {
+      "source": "cpp",
+      "relation": "compares_with",
+      "target": "rust"
+    },
+    {
+      "source": "cpp",
+      "relation": "related_to",
+      "target": "compilers"
+    },
+    {
+      "source": "cpp",
+      "relation": "related_to",
+      "target": "design-patterns"
+    },
+    {
+      "source": "cpp",
+      "relation": "requires",
+      "target": "memory-management"
+    },
+    {
+      "source": "cpp",
+      "relation": "requires",
+      "target": "type-systems"
+    },
+    {
+      "source": "cpp",
+      "relation": "supported_by",
+      "target": "language-specifications"
+    },
+    {
+      "source": "creational-patterns",
+      "relation": "related_to",
+      "target": "memory-management"
+    },
+    {
+      "source": "creational-patterns",
+      "relation": "related_to",
+      "target": "testing"
+    },
+    {
+      "source": "creational-patterns",
+      "relation": "requires",
+      "target": "design-patterns"
+    },
+    {
+      "source": "creational-patterns",
+      "relation": "supported_by",
+      "target": "design-patterns-book"
+    },
+    {
+      "source": "csharp",
+      "relation": "compares_with",
+      "target": "java"
+    },
+    {
+      "source": "csharp",
+      "relation": "compares_with",
+      "target": "typescript"
+    },
+    {
+      "source": "csharp",
+      "relation": "related_to",
+      "target": "io-and-event-loops"
+    },
+    {
+      "source": "csharp",
+      "relation": "requires",
+      "target": "programming-paradigms"
+    },
+    {
+      "source": "csharp",
+      "relation": "requires",
+      "target": "type-systems"
+    },
+    {
+      "source": "csharp",
+      "relation": "supported_by",
+      "target": "language-specifications"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "agentic-development"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "ai-assisted-development"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "ai-development-evidence"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "algorithm-analysis"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "algorithms-reference"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "api-design"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "architecture"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "arrays-and-linked-lists"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "behavioral-patterns"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "bellman-1954-dynamic-programming"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "build-and-dependencies"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "c"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "caching"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "ci-cd"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "codd-1970-relational-model"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "compilers"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "computer-networks"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "consistency-models"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "cpp"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "creational-patterns"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "csharp"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "data-modeling"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "data-structures-and-algorithms"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "databases"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "debugging-and-profiling"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "design-patterns"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "design-patterns-book"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "discrete-mathematics"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "distributed-systems"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "distributed-transactions"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "dynamic-programming"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "file-systems"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "formal-methods"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "gilbert-lynch-2012-cap-perspectives"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "go"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "graphs"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "greedy-algorithms"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "hash-tables"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "heaps"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "http-and-rpc"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "http-semantics"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "indexes-and-query-planning"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "intermediate-representation"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "io-and-event-loops"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "java"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "javascript"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "lamport-1978-time-clocks"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "language-specifications"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "llvm-tutorial"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "memory-management"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "messaging-and-streams"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "nosql"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "observability"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "ongaro-2014-raft"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "operating-systems"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "operating-systems-book"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "parsing-and-asts"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "partitioning-and-sharding"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "performance-engineering"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "postgresql-documentation"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "processes-and-threads"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "programming-languages"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "programming-paradigms"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "python"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "queues"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "recursion-and-backtracking"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "relational-model-and-sql"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "replication-and-consensus"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "requirements-and-specifications"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "resilience-and-idempotency"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "runtimes-and-execution"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "rust"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "searching"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "security-engineering"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "security-guides"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "software-construction"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "software-design"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "sorting"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "sre-book"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "stacks"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "storage-and-recovery"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "structural-patterns"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "synchronization"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "testing"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "time-and-ordering"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "transactions"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "trees"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "type-systems"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "typescript"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "version-control"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "vibe-programming"
+    },
+    {
+      "source": "cstree",
+      "relation": "related_to",
+      "target": "virtual-memory"
+    },
+    {
+      "source": "data-modeling",
+      "relation": "related_to",
+      "target": "api-design"
+    },
+    {
+      "source": "data-modeling",
+      "relation": "related_to",
+      "target": "architecture"
+    },
+    {
+      "source": "data-modeling",
+      "relation": "related_to",
+      "target": "transactions"
+    },
+    {
+      "source": "data-modeling",
+      "relation": "requires",
+      "target": "relational-model-and-sql"
+    },
+    {
+      "source": "data-modeling",
+      "relation": "supported_by",
+      "target": "codd-1970-relational-model"
+    },
+    {
+      "source": "data-modeling",
+      "relation": "supported_by",
+      "target": "postgresql-documentation"
+    },
+    {
+      "source": "data-structures-and-algorithms",
+      "relation": "contains",
+      "target": "arrays-and-linked-lists"
+    },
+    {
+      "source": "data-structures-and-algorithms",
+      "relation": "contains",
+      "target": "dynamic-programming"
+    },
+    {
+      "source": "data-structures-and-algorithms",
+      "relation": "contains",
+      "target": "graphs"
+    },
+    {
+      "source": "data-structures-and-algorithms",
+      "relation": "contains",
+      "target": "greedy-algorithms"
+    },
+    {
+      "source": "data-structures-and-algorithms",
+      "relation": "contains",
+      "target": "hash-tables"
+    },
+    {
+      "source": "data-structures-and-algorithms",
+      "relation": "contains",
+      "target": "heaps"
+    },
+    {
+      "source": "data-structures-and-algorithms",
+      "relation": "contains",
+      "target": "queues"
+    },
+    {
+      "source": "data-structures-and-algorithms",
+      "relation": "contains",
+      "target": "recursion-and-backtracking"
+    },
+    {
+      "source": "data-structures-and-algorithms",
+      "relation": "contains",
+      "target": "searching"
+    },
+    {
+      "source": "data-structures-and-algorithms",
+      "relation": "contains",
+      "target": "sorting"
+    },
+    {
+      "source": "data-structures-and-algorithms",
+      "relation": "contains",
+      "target": "stacks"
+    },
+    {
+      "source": "data-structures-and-algorithms",
+      "relation": "contains",
+      "target": "trees"
+    },
+    {
+      "source": "data-structures-and-algorithms",
+      "relation": "requires",
+      "target": "algorithm-analysis"
+    },
+    {
+      "source": "data-structures-and-algorithms",
+      "relation": "supported_by",
+      "target": "algorithms-reference"
+    },
+    {
+      "source": "databases",
+      "relation": "contains",
+      "target": "data-modeling"
+    },
+    {
+      "source": "databases",
+      "relation": "contains",
+      "target": "indexes-and-query-planning"
+    },
+    {
+      "source": "databases",
+      "relation": "contains",
+      "target": "nosql"
+    },
+    {
+      "source": "databases",
+      "relation": "contains",
+      "target": "relational-model-and-sql"
+    },
+    {
+      "source": "databases",
+      "relation": "contains",
+      "target": "storage-and-recovery"
+    },
+    {
+      "source": "databases",
+      "relation": "contains",
+      "target": "transactions"
+    },
+    {
+      "source": "databases",
+      "relation": "related_to",
+      "target": "distributed-systems"
+    },
+    {
+      "source": "databases",
+      "relation": "requires",
+      "target": "data-structures-and-algorithms"
+    },
+    {
+      "source": "databases",
+      "relation": "supported_by",
+      "target": "codd-1970-relational-model"
+    },
+    {
+      "source": "databases",
+      "relation": "supported_by",
+      "target": "postgresql-documentation"
+    },
+    {
+      "source": "debugging-and-profiling",
+      "relation": "related_to",
+      "target": "observability"
+    },
+    {
+      "source": "debugging-and-profiling",
+      "relation": "related_to",
+      "target": "performance-engineering"
+    },
+    {
+      "source": "debugging-and-profiling",
+      "relation": "related_to",
+      "target": "version-control"
+    },
+    {
+      "source": "debugging-and-profiling",
+      "relation": "requires",
+      "target": "algorithm-analysis"
+    },
+    {
+      "source": "debugging-and-profiling",
+      "relation": "requires",
+      "target": "programming-languages"
+    },
+    {
+      "source": "debugging-and-profiling",
+      "relation": "supported_by",
+      "target": "software-construction"
+    },
+    {
+      "source": "debugging-and-profiling",
+      "relation": "supported_by",
+      "target": "sre-book"
+    },
+    {
+      "source": "design-patterns",
+      "relation": "contains",
+      "target": "behavioral-patterns"
+    },
+    {
+      "source": "design-patterns",
+      "relation": "contains",
+      "target": "creational-patterns"
+    },
+    {
+      "source": "design-patterns",
+      "relation": "contains",
+      "target": "structural-patterns"
+    },
+    {
+      "source": "design-patterns",
+      "relation": "related_to",
+      "target": "architecture"
+    },
+    {
+      "source": "design-patterns",
+      "relation": "related_to",
+      "target": "software-design"
+    },
+    {
+      "source": "design-patterns",
+      "relation": "requires",
+      "target": "programming-paradigms"
+    },
+    {
+      "source": "design-patterns",
+      "relation": "supported_by",
+      "target": "design-patterns-book"
+    },
+    {
+      "source": "design-patterns-book",
+      "relation": "explains",
+      "target": "behavioral-patterns"
+    },
+    {
+      "source": "design-patterns-book",
+      "relation": "explains",
+      "target": "creational-patterns"
+    },
+    {
+      "source": "design-patterns-book",
+      "relation": "explains",
+      "target": "design-patterns"
+    },
+    {
+      "source": "design-patterns-book",
+      "relation": "explains",
+      "target": "software-design"
+    },
+    {
+      "source": "design-patterns-book",
+      "relation": "explains",
+      "target": "structural-patterns"
+    },
+    {
+      "source": "discrete-mathematics",
+      "relation": "supported_by",
+      "target": "algorithms-reference"
+    },
+    {
+      "source": "discrete-mathematics",
+      "relation": "used_by",
+      "target": "algorithm-analysis"
+    },
+    {
+      "source": "discrete-mathematics",
+      "relation": "used_by",
+      "target": "formal-methods"
+    },
+    {
+      "source": "discrete-mathematics",
+      "relation": "used_by",
+      "target": "graphs"
+    },
+    {
+      "source": "distributed-systems",
+      "relation": "contains",
+      "target": "caching"
+    },
+    {
+      "source": "distributed-systems",
+      "relation": "contains",
+      "target": "consistency-models"
+    },
+    {
+      "source": "distributed-systems",
+      "relation": "contains",
+      "target": "distributed-transactions"
+    },
+    {
+      "source": "distributed-systems",
+      "relation": "contains",
+      "target": "messaging-and-streams"
+    },
+    {
+      "source": "distributed-systems",
+      "relation": "contains",
+      "target": "partitioning-and-sharding"
+    },
+    {
+      "source": "distributed-systems",
+      "relation": "contains",
+      "target": "replication-and-consensus"
+    },
+    {
+      "source": "distributed-systems",
+      "relation": "contains",
+      "target": "resilience-and-idempotency"
+    },
+    {
+      "source": "distributed-systems",
+      "relation": "contains",
+      "target": "time-and-ordering"
+    },
+    {
+      "source": "distributed-systems",
+      "relation": "related_to",
+      "target": "architecture"
+    },
+    {
+      "source": "distributed-systems",
+      "relation": "related_to",
+      "target": "observability"
+    },
+    {
+      "source": "distributed-systems",
+      "relation": "requires",
+      "target": "computer-networks"
+    },
+    {
+      "source": "distributed-systems",
+      "relation": "requires",
+      "target": "processes-and-threads"
+    },
+    {
+      "source": "distributed-systems",
+      "relation": "supported_by",
+      "target": "lamport-1978-time-clocks"
+    },
+    {
+      "source": "distributed-systems",
+      "relation": "supported_by",
+      "target": "sre-book"
+    },
+    {
+      "source": "distributed-transactions",
+      "relation": "related_to",
+      "target": "architecture"
+    },
+    {
+      "source": "distributed-transactions",
+      "relation": "related_to",
+      "target": "replication-and-consensus"
+    },
+    {
+      "source": "distributed-transactions",
+      "relation": "related_to",
+      "target": "resilience-and-idempotency"
+    },
+    {
+      "source": "distributed-transactions",
+      "relation": "requires",
+      "target": "distributed-systems"
+    },
+    {
+      "source": "distributed-transactions",
+      "relation": "requires",
+      "target": "messaging-and-streams"
+    },
+    {
+      "source": "distributed-transactions",
+      "relation": "requires",
+      "target": "transactions"
+    },
+    {
+      "source": "distributed-transactions",
+      "relation": "supported_by",
+      "target": "postgresql-documentation"
+    },
+    {
+      "source": "distributed-transactions",
+      "relation": "supported_by",
+      "target": "sre-book"
+    },
+    {
+      "source": "dynamic-programming",
+      "relation": "compares_with",
+      "target": "greedy-algorithms"
+    },
+    {
+      "source": "dynamic-programming",
+      "relation": "related_to",
+      "target": "graphs"
+    },
+    {
+      "source": "dynamic-programming",
+      "relation": "requires",
+      "target": "algorithm-analysis"
+    },
+    {
+      "source": "dynamic-programming",
+      "relation": "requires",
+      "target": "recursion-and-backtracking"
+    },
+    {
+      "source": "dynamic-programming",
+      "relation": "supported_by",
+      "target": "algorithms-reference"
+    },
+    {
+      "source": "dynamic-programming",
+      "relation": "supported_by",
+      "target": "bellman-1954-dynamic-programming"
+    },
+    {
+      "source": "file-systems",
+      "relation": "related_to",
+      "target": "security-engineering"
+    },
+    {
+      "source": "file-systems",
+      "relation": "related_to",
+      "target": "storage-and-recovery"
+    },
+    {
+      "source": "file-systems",
+      "relation": "requires",
+      "target": "operating-systems"
+    },
+    {
+      "source": "file-systems",
+      "relation": "supported_by",
+      "target": "operating-systems-book"
+    },
+    {
+      "source": "formal-methods",
+      "relation": "related_to",
+      "target": "replication-and-consensus"
+    },
+    {
+      "source": "formal-methods",
+      "relation": "related_to",
+      "target": "synchronization"
+    },
+    {
+      "source": "formal-methods",
+      "relation": "related_to",
+      "target": "testing"
+    },
+    {
+      "source": "formal-methods",
+      "relation": "related_to",
+      "target": "type-systems"
+    },
+    {
+      "source": "formal-methods",
+      "relation": "requires",
+      "target": "discrete-mathematics"
+    },
+    {
+      "source": "formal-methods",
+      "relation": "requires",
+      "target": "requirements-and-specifications"
+    },
+    {
+      "source": "formal-methods",
+      "relation": "supported_by",
+      "target": "algorithms-reference"
+    },
+    {
+      "source": "formal-methods",
+      "relation": "supported_by",
+      "target": "lamport-1978-time-clocks"
+    },
+    {
+      "source": "gilbert-lynch-2012-cap-perspectives",
+      "relation": "explains",
+      "target": "consistency-models"
+    },
+    {
+      "source": "gilbert-lynch-2012-cap-perspectives",
+      "relation": "explains",
+      "target": "nosql"
+    },
+    {
+      "source": "gilbert-lynch-2012-cap-perspectives",
+      "relation": "explains",
+      "target": "partitioning-and-sharding"
+    },
+    {
+      "source": "go",
+      "relation": "compares_with",
+      "target": "java"
+    },
+    {
+      "source": "go",
+      "relation": "compares_with",
+      "target": "rust"
+    },
+    {
+      "source": "go",
+      "relation": "related_to",
+      "target": "processes-and-threads"
+    },
+    {
+      "source": "go",
+      "relation": "related_to",
+      "target": "synchronization"
+    },
+    {
+      "source": "go",
+      "relation": "requires",
+      "target": "type-systems"
+    },
+    {
+      "source": "go",
+      "relation": "supported_by",
+      "target": "language-specifications"
+    },
+    {
+      "source": "graphs",
+      "relation": "related_to",
+      "target": "build-and-dependencies"
+    },
+    {
+      "source": "graphs",
+      "relation": "related_to",
+      "target": "distributed-systems"
+    },
+    {
+      "source": "graphs",
+      "relation": "related_to",
+      "target": "heaps"
+    },
+    {
+      "source": "graphs",
+      "relation": "requires",
+      "target": "algorithm-analysis"
+    },
+    {
+      "source": "graphs",
+      "relation": "requires",
+      "target": "queues"
+    },
+    {
+      "source": "graphs",
+      "relation": "requires",
+      "target": "stacks"
+    },
+    {
+      "source": "graphs",
+      "relation": "supported_by",
+      "target": "algorithms-reference"
+    },
+    {
+      "source": "greedy-algorithms",
+      "relation": "compares_with",
+      "target": "dynamic-programming"
+    },
+    {
+      "source": "greedy-algorithms",
+      "relation": "requires",
+      "target": "algorithm-analysis"
+    },
+    {
+      "source": "greedy-algorithms",
+      "relation": "requires",
+      "target": "discrete-mathematics"
+    },
+    {
+      "source": "greedy-algorithms",
+      "relation": "supported_by",
+      "target": "algorithms-reference"
+    },
+    {
+      "source": "greedy-algorithms",
+      "relation": "uses",
+      "target": "heaps"
+    },
+    {
+      "source": "greedy-algorithms",
+      "relation": "uses",
+      "target": "sorting"
+    },
+    {
+      "source": "hash-tables",
+      "relation": "compares_with",
+      "target": "trees"
+    },
+    {
+      "source": "hash-tables",
+      "relation": "requires",
+      "target": "arrays-and-linked-lists"
+    },
+    {
+      "source": "hash-tables",
+      "relation": "supported_by",
+      "target": "algorithms-reference"
+    },
+    {
+      "source": "hash-tables",
+      "relation": "used_by",
+      "target": "caching"
+    },
+    {
+      "source": "hash-tables",
+      "relation": "used_by",
+      "target": "compilers"
+    },
+    {
+      "source": "heaps",
+      "relation": "compares_with",
+      "target": "queues"
+    },
+    {
+      "source": "heaps",
+      "relation": "requires",
+      "target": "arrays-and-linked-lists"
+    },
+    {
+      "source": "heaps",
+      "relation": "requires",
+      "target": "trees"
+    },
+    {
+      "source": "heaps",
+      "relation": "supported_by",
+      "target": "algorithms-reference"
+    },
+    {
+      "source": "heaps",
+      "relation": "used_by",
+      "target": "graphs"
+    },
+    {
+      "source": "heaps",
+      "relation": "used_by",
+      "target": "sorting"
+    },
+    {
+      "source": "http-and-rpc",
+      "relation": "related_to",
+      "target": "observability"
+    },
+    {
+      "source": "http-and-rpc",
+      "relation": "related_to",
+      "target": "resilience-and-idempotency"
+    },
+    {
+      "source": "http-and-rpc",
+      "relation": "related_to",
+      "target": "security-engineering"
+    },
+    {
+      "source": "http-and-rpc",
+      "relation": "requires",
+      "target": "api-design"
+    },
+    {
+      "source": "http-and-rpc",
+      "relation": "requires",
+      "target": "computer-networks"
+    },
+    {
+      "source": "http-and-rpc",
+      "relation": "supported_by",
+      "target": "http-semantics"
+    },
+    {
+      "source": "http-semantics",
+      "relation": "explains",
+      "target": "api-design"
+    },
+    {
+      "source": "http-semantics",
+      "relation": "explains",
+      "target": "caching"
+    },
+    {
+      "source": "http-semantics",
+      "relation": "explains",
+      "target": "computer-networks"
+    },
+    {
+      "source": "http-semantics",
+      "relation": "explains",
+      "target": "http-and-rpc"
+    },
+    {
+      "source": "http-semantics",
+      "relation": "explains",
+      "target": "resilience-and-idempotency"
+    },
+    {
+      "source": "indexes-and-query-planning",
+      "relation": "related_to",
+      "target": "performance-engineering"
+    },
+    {
+      "source": "indexes-and-query-planning",
+      "relation": "related_to",
+      "target": "storage-and-recovery"
+    },
+    {
+      "source": "indexes-and-query-planning",
+      "relation": "requires",
+      "target": "algorithm-analysis"
+    },
+    {
+      "source": "indexes-and-query-planning",
+      "relation": "requires",
+      "target": "relational-model-and-sql"
+    },
+    {
+      "source": "indexes-and-query-planning",
+      "relation": "requires",
+      "target": "trees"
+    },
+    {
+      "source": "indexes-and-query-planning",
+      "relation": "supported_by",
+      "target": "postgresql-documentation"
+    },
+    {
+      "source": "indexes-and-query-planning",
+      "relation": "uses",
+      "target": "hash-tables"
+    },
+    {
+      "source": "indexes-and-query-planning",
+      "relation": "uses",
+      "target": "sorting"
+    },
+    {
+      "source": "intermediate-representation",
+      "relation": "related_to",
+      "target": "formal-methods"
+    },
+    {
+      "source": "intermediate-representation",
+      "relation": "related_to",
+      "target": "performance-engineering"
+    },
+    {
+      "source": "intermediate-representation",
+      "relation": "related_to",
+      "target": "type-systems"
+    },
+    {
+      "source": "intermediate-representation",
+      "relation": "requires",
+      "target": "compilers"
+    },
+    {
+      "source": "intermediate-representation",
+      "relation": "requires",
+      "target": "graphs"
+    },
+    {
+      "source": "intermediate-representation",
+      "relation": "supported_by",
+      "target": "llvm-tutorial"
+    },
+    {
+      "source": "io-and-event-loops",
+      "relation": "related_to",
+      "target": "computer-networks"
+    },
+    {
+      "source": "io-and-event-loops",
+      "relation": "related_to",
+      "target": "csharp"
+    },
+    {
+      "source": "io-and-event-loops",
+      "relation": "related_to",
+      "target": "javascript"
+    },
+    {
+      "source": "io-and-event-loops",
+      "relation": "related_to",
+      "target": "resilience-and-idempotency"
+    },
+    {
+      "source": "io-and-event-loops",
+      "relation": "requires",
+      "target": "processes-and-threads"
+    },
+    {
+      "source": "io-and-event-loops",
+      "relation": "requires",
+      "target": "queues"
+    },
+    {
+      "source": "io-and-event-loops",
+      "relation": "supported_by",
+      "target": "language-specifications"
+    },
+    {
+      "source": "io-and-event-loops",
+      "relation": "supported_by",
+      "target": "operating-systems-book"
+    },
+    {
+      "source": "java",
+      "relation": "compares_with",
+      "target": "csharp"
+    },
+    {
+      "source": "java",
+      "relation": "compares_with",
+      "target": "go"
+    },
+    {
+      "source": "java",
+      "relation": "requires",
+      "target": "programming-paradigms"
+    },
+    {
+      "source": "java",
+      "relation": "requires",
+      "target": "type-systems"
+    },
+    {
+      "source": "java",
+      "relation": "supported_by",
+      "target": "language-specifications"
+    },
+    {
+      "source": "java",
+      "relation": "uses",
+      "target": "runtimes-and-execution"
+    },
+    {
+      "source": "javascript",
+      "relation": "extended_by",
+      "target": "typescript"
+    },
+    {
+      "source": "javascript",
+      "relation": "related_to",
+      "target": "http-and-rpc"
+    },
+    {
+      "source": "javascript",
+      "relation": "related_to",
+      "target": "io-and-event-loops"
+    },
+    {
+      "source": "javascript",
+      "relation": "requires",
+      "target": "programming-languages"
+    },
+    {
+      "source": "javascript",
+      "relation": "supported_by",
+      "target": "language-specifications"
+    },
+    {
+      "source": "lamport-1978-time-clocks",
+      "relation": "explains",
+      "target": "distributed-systems"
+    },
+    {
+      "source": "lamport-1978-time-clocks",
+      "relation": "explains",
+      "target": "formal-methods"
+    },
+    {
+      "source": "lamport-1978-time-clocks",
+      "relation": "explains",
+      "target": "time-and-ordering"
+    },
+    {
+      "source": "language-specifications",
+      "relation": "explains",
+      "target": "c"
+    },
+    {
+      "source": "language-specifications",
+      "relation": "explains",
+      "target": "cpp"
+    },
+    {
+      "source": "language-specifications",
+      "relation": "explains",
+      "target": "csharp"
+    },
+    {
+      "source": "language-specifications",
+      "relation": "explains",
+      "target": "go"
+    },
+    {
+      "source": "language-specifications",
+      "relation": "explains",
+      "target": "java"
+    },
+    {
+      "source": "language-specifications",
+      "relation": "explains",
+      "target": "javascript"
+    },
+    {
+      "source": "language-specifications",
+      "relation": "explains",
+      "target": "memory-management"
+    },
+    {
+      "source": "language-specifications",
+      "relation": "explains",
+      "target": "programming-languages"
+    },
+    {
+      "source": "language-specifications",
+      "relation": "explains",
+      "target": "python"
+    },
+    {
+      "source": "language-specifications",
+      "relation": "explains",
+      "target": "rust"
+    },
+    {
+      "source": "language-specifications",
+      "relation": "explains",
+      "target": "type-systems"
+    },
+    {
+      "source": "language-specifications",
+      "relation": "explains",
+      "target": "typescript"
+    },
+    {
+      "source": "llvm-tutorial",
+      "relation": "explains",
+      "target": "compilers"
+    },
+    {
+      "source": "llvm-tutorial",
+      "relation": "explains",
+      "target": "intermediate-representation"
+    },
+    {
+      "source": "llvm-tutorial",
+      "relation": "explains",
+      "target": "parsing-and-asts"
+    },
+    {
+      "source": "memory-management",
+      "relation": "related_to",
+      "target": "c"
+    },
+    {
+      "source": "memory-management",
+      "relation": "related_to",
+      "target": "cpp"
+    },
+    {
+      "source": "memory-management",
+      "relation": "related_to",
+      "target": "runtimes-and-execution"
+    },
+    {
+      "source": "memory-management",
+      "relation": "related_to",
+      "target": "rust"
+    },
+    {
+      "source": "memory-management",
+      "relation": "related_to",
+      "target": "virtual-memory"
+    },
+    {
+      "source": "memory-management",
+      "relation": "requires",
+      "target": "programming-languages"
+    },
+    {
+      "source": "memory-management",
+      "relation": "supported_by",
+      "target": "language-specifications"
+    },
+    {
+      "source": "memory-management",
+      "relation": "supported_by",
+      "target": "operating-systems-book"
+    },
+    {
+      "source": "messaging-and-streams",
+      "relation": "related_to",
+      "target": "behavioral-patterns"
+    },
+    {
+      "source": "messaging-and-streams",
+      "relation": "related_to",
+      "target": "distributed-transactions"
+    },
+    {
+      "source": "messaging-and-streams",
+      "relation": "related_to",
+      "target": "observability"
+    },
+    {
+      "source": "messaging-and-streams",
+      "relation": "related_to",
+      "target": "resilience-and-idempotency"
+    },
+    {
+      "source": "messaging-and-streams",
+      "relation": "requires",
+      "target": "distributed-systems"
+    },
+    {
+      "source": "messaging-and-streams",
+      "relation": "requires",
+      "target": "queues"
+    },
+    {
+      "source": "messaging-and-streams",
+      "relation": "supported_by",
+      "target": "sre-book"
+    },
+    {
+      "source": "nosql",
+      "relation": "compares_with",
+      "target": "relational-model-and-sql"
+    },
+    {
+      "source": "nosql",
+      "relation": "related_to",
+      "target": "consistency-models"
+    },
+    {
+      "source": "nosql",
+      "relation": "related_to",
+      "target": "partitioning-and-sharding"
+    },
+    {
+      "source": "nosql",
+      "relation": "requires",
+      "target": "data-modeling"
+    },
+    {
+      "source": "nosql",
+      "relation": "supported_by",
+      "target": "gilbert-lynch-2012-cap-perspectives"
+    },
+    {
+      "source": "nosql",
+      "relation": "supported_by",
+      "target": "postgresql-documentation"
+    },
+    {
+      "source": "observability",
+      "relation": "related_to",
+      "target": "ci-cd"
+    },
+    {
+      "source": "observability",
+      "relation": "related_to",
+      "target": "debugging-and-profiling"
+    },
+    {
+      "source": "observability",
+      "relation": "related_to",
+      "target": "distributed-systems"
+    },
+    {
+      "source": "observability",
+      "relation": "related_to",
+      "target": "performance-engineering"
+    },
+    {
+      "source": "observability",
+      "relation": "requires",
+      "target": "requirements-and-specifications"
+    },
+    {
+      "source": "observability",
+      "relation": "supported_by",
+      "target": "sre-book"
+    },
+    {
+      "source": "ongaro-2014-raft",
+      "relation": "explains",
+      "target": "replication-and-consensus"
+    },
+    {
+      "source": "operating-systems",
+      "relation": "contains",
+      "target": "file-systems"
+    },
+    {
+      "source": "operating-systems",
+      "relation": "contains",
+      "target": "io-and-event-loops"
+    },
+    {
+      "source": "operating-systems",
+      "relation": "contains",
+      "target": "processes-and-threads"
+    },
+    {
+      "source": "operating-systems",
+      "relation": "contains",
+      "target": "synchronization"
+    },
+    {
+      "source": "operating-systems",
+      "relation": "contains",
+      "target": "virtual-memory"
+    },
+    {
+      "source": "operating-systems",
+      "relation": "related_to",
+      "target": "computer-networks"
+    },
+    {
+      "source": "operating-systems",
+      "relation": "related_to",
+      "target": "runtimes-and-execution"
+    },
+    {
+      "source": "operating-systems",
+      "relation": "requires",
+      "target": "memory-management"
+    },
+    {
+      "source": "operating-systems",
+      "relation": "supported_by",
+      "target": "operating-systems-book"
+    },
+    {
+      "source": "operating-systems-book",
+      "relation": "explains",
+      "target": "file-systems"
+    },
+    {
+      "source": "operating-systems-book",
+      "relation": "explains",
+      "target": "operating-systems"
+    },
+    {
+      "source": "operating-systems-book",
+      "relation": "explains",
+      "target": "processes-and-threads"
+    },
+    {
+      "source": "operating-systems-book",
+      "relation": "explains",
+      "target": "synchronization"
+    },
+    {
+      "source": "operating-systems-book",
+      "relation": "explains",
+      "target": "virtual-memory"
+    },
+    {
+      "source": "parsing-and-asts",
+      "relation": "related_to",
+      "target": "intermediate-representation"
+    },
+    {
+      "source": "parsing-and-asts",
+      "relation": "related_to",
+      "target": "type-systems"
+    },
+    {
+      "source": "parsing-and-asts",
+      "relation": "requires",
+      "target": "compilers"
+    },
+    {
+      "source": "parsing-and-asts",
+      "relation": "requires",
+      "target": "recursion-and-backtracking"
+    },
+    {
+      "source": "parsing-and-asts",
+      "relation": "supported_by",
+      "target": "llvm-tutorial"
+    },
+    {
+      "source": "parsing-and-asts",
+      "relation": "uses",
+      "target": "stacks"
+    },
+    {
+      "source": "parsing-and-asts",
+      "relation": "uses",
+      "target": "trees"
+    },
+    {
+      "source": "partitioning-and-sharding",
+      "relation": "related_to",
+      "target": "indexes-and-query-planning"
+    },
+    {
+      "source": "partitioning-and-sharding",
+      "relation": "related_to",
+      "target": "performance-engineering"
+    },
+    {
+      "source": "partitioning-and-sharding",
+      "relation": "related_to",
+      "target": "replication-and-consensus"
+    },
+    {
+      "source": "partitioning-and-sharding",
+      "relation": "requires",
+      "target": "data-modeling"
+    },
+    {
+      "source": "partitioning-and-sharding",
+      "relation": "requires",
+      "target": "distributed-systems"
+    },
+    {
+      "source": "partitioning-and-sharding",
+      "relation": "requires",
+      "target": "hash-tables"
+    },
+    {
+      "source": "partitioning-and-sharding",
+      "relation": "supported_by",
+      "target": "gilbert-lynch-2012-cap-perspectives"
+    },
+    {
+      "source": "partitioning-and-sharding",
+      "relation": "supported_by",
+      "target": "sre-book"
+    },
+    {
+      "source": "performance-engineering",
+      "relation": "related_to",
+      "target": "caching"
+    },
+    {
+      "source": "performance-engineering",
+      "relation": "related_to",
+      "target": "debugging-and-profiling"
+    },
+    {
+      "source": "performance-engineering",
+      "relation": "related_to",
+      "target": "indexes-and-query-planning"
+    },
+    {
+      "source": "performance-engineering",
+      "relation": "related_to",
+      "target": "observability"
+    },
+    {
+      "source": "performance-engineering",
+      "relation": "requires",
+      "target": "algorithm-analysis"
+    },
+    {
+      "source": "performance-engineering",
+      "relation": "requires",
+      "target": "requirements-and-specifications"
+    },
+    {
+      "source": "performance-engineering",
+      "relation": "supported_by",
+      "target": "algorithms-reference"
+    },
+    {
+      "source": "performance-engineering",
+      "relation": "supported_by",
+      "target": "sre-book"
+    },
+    {
+      "source": "postgresql-documentation",
+      "relation": "explains",
+      "target": "databases"
+    },
+    {
+      "source": "postgresql-documentation",
+      "relation": "explains",
+      "target": "distributed-transactions"
+    },
+    {
+      "source": "postgresql-documentation",
+      "relation": "explains",
+      "target": "indexes-and-query-planning"
+    },
+    {
+      "source": "postgresql-documentation",
+      "relation": "explains",
+      "target": "nosql"
+    },
+    {
+      "source": "postgresql-documentation",
+      "relation": "explains",
+      "target": "relational-model-and-sql"
+    },
+    {
+      "source": "postgresql-documentation",
+      "relation": "explains",
+      "target": "storage-and-recovery"
+    },
+    {
+      "source": "postgresql-documentation",
+      "relation": "explains",
+      "target": "transactions"
+    },
+    {
+      "source": "processes-and-threads",
+      "relation": "related_to",
+      "target": "distributed-systems"
+    },
+    {
+      "source": "processes-and-threads",
+      "relation": "related_to",
+      "target": "io-and-event-loops"
+    },
+    {
+      "source": "processes-and-threads",
+      "relation": "related_to",
+      "target": "synchronization"
+    },
+    {
+      "source": "processes-and-threads",
+      "relation": "requires",
+      "target": "operating-systems"
+    },
+    {
+      "source": "processes-and-threads",
+      "relation": "supported_by",
+      "target": "operating-systems-book"
+    },
+    {
+      "source": "programming-languages",
+      "relation": "contains",
+      "target": "c"
+    },
+    {
+      "source": "programming-languages",
+      "relation": "contains",
+      "target": "cpp"
+    },
+    {
+      "source": "programming-languages",
+      "relation": "contains",
+      "target": "csharp"
+    },
+    {
+      "source": "programming-languages",
+      "relation": "contains",
+      "target": "go"
+    },
+    {
+      "source": "programming-languages",
+      "relation": "contains",
+      "target": "java"
+    },
+    {
+      "source": "programming-languages",
+      "relation": "contains",
+      "target": "javascript"
+    },
+    {
+      "source": "programming-languages",
+      "relation": "contains",
+      "target": "memory-management"
+    },
+    {
+      "source": "programming-languages",
+      "relation": "contains",
+      "target": "programming-paradigms"
+    },
+    {
+      "source": "programming-languages",
+      "relation": "contains",
+      "target": "python"
+    },
+    {
+      "source": "programming-languages",
+      "relation": "contains",
+      "target": "rust"
+    },
+    {
+      "source": "programming-languages",
+      "relation": "contains",
+      "target": "type-systems"
+    },
+    {
+      "source": "programming-languages",
+      "relation": "contains",
+      "target": "typescript"
+    },
+    {
+      "source": "programming-languages",
+      "relation": "related_to",
+      "target": "compilers"
+    },
+    {
+      "source": "programming-languages",
+      "relation": "requires",
+      "target": "discrete-mathematics"
+    },
+    {
+      "source": "programming-languages",
+      "relation": "supported_by",
+      "target": "language-specifications"
+    },
+    {
+      "source": "programming-paradigms",
+      "relation": "related_to",
+      "target": "design-patterns"
+    },
+    {
+      "source": "programming-paradigms",
+      "relation": "related_to",
+      "target": "relational-model-and-sql"
+    },
+    {
+      "source": "programming-paradigms",
+      "relation": "related_to",
+      "target": "software-design"
+    },
+    {
+      "source": "programming-paradigms",
+      "relation": "requires",
+      "target": "programming-languages"
+    },
+    {
+      "source": "programming-paradigms",
+      "relation": "supported_by",
+      "target": "design-patterns-book"
+    },
+    {
+      "source": "programming-paradigms",
+      "relation": "supported_by",
+      "target": "language-specifications"
+    },
+    {
+      "source": "python",
+      "relation": "related_to",
+      "target": "ai-assisted-development"
+    },
+    {
+      "source": "python",
+      "relation": "related_to",
+      "target": "build-and-dependencies"
+    },
+    {
+      "source": "python",
+      "relation": "related_to",
+      "target": "type-systems"
+    },
+    {
+      "source": "python",
+      "relation": "requires",
+      "target": "programming-languages"
+    },
+    {
+      "source": "python",
+      "relation": "supported_by",
+      "target": "language-specifications"
+    },
+    {
+      "source": "queues",
+      "relation": "related_to",
+      "target": "resilience-and-idempotency"
+    },
+    {
+      "source": "queues",
+      "relation": "requires",
+      "target": "arrays-and-linked-lists"
+    },
+    {
+      "source": "queues",
+      "relation": "supported_by",
+      "target": "algorithms-reference"
+    },
+    {
+      "source": "queues",
+      "relation": "used_by",
+      "target": "graphs"
+    },
+    {
+      "source": "queues",
+      "relation": "used_by",
+      "target": "io-and-event-loops"
+    },
+    {
+      "source": "queues",
+      "relation": "used_by",
+      "target": "messaging-and-streams"
+    },
+    {
+      "source": "recursion-and-backtracking",
+      "relation": "extended_by",
+      "target": "dynamic-programming"
+    },
+    {
+      "source": "recursion-and-backtracking",
+      "relation": "requires",
+      "target": "discrete-mathematics"
+    },
+    {
+      "source": "recursion-and-backtracking",
+      "relation": "requires",
+      "target": "stacks"
+    },
+    {
+      "source": "recursion-and-backtracking",
+      "relation": "supported_by",
+      "target": "algorithms-reference"
+    },
+    {
+      "source": "recursion-and-backtracking",
+      "relation": "used_by",
+      "target": "parsing-and-asts"
+    },
+    {
+      "source": "recursion-and-backtracking",
+      "relation": "used_by",
+      "target": "trees"
+    },
+    {
+      "source": "relational-model-and-sql",
+      "relation": "related_to",
+      "target": "data-modeling"
+    },
+    {
+      "source": "relational-model-and-sql",
+      "relation": "related_to",
+      "target": "indexes-and-query-planning"
+    },
+    {
+      "source": "relational-model-and-sql",
+      "relation": "related_to",
+      "target": "transactions"
+    },
+    {
+      "source": "relational-model-and-sql",
+      "relation": "requires",
+      "target": "discrete-mathematics"
+    },
+    {
+      "source": "relational-model-and-sql",
+      "relation": "supported_by",
+      "target": "codd-1970-relational-model"
+    },
+    {
+      "source": "relational-model-and-sql",
+      "relation": "supported_by",
+      "target": "postgresql-documentation"
+    },
+    {
+      "source": "replication-and-consensus",
+      "relation": "related_to",
+      "target": "consistency-models"
+    },
+    {
+      "source": "replication-and-consensus",
+      "relation": "related_to",
+      "target": "distributed-transactions"
+    },
+    {
+      "source": "replication-and-consensus",
+      "relation": "related_to",
+      "target": "storage-and-recovery"
+    },
+    {
+      "source": "replication-and-consensus",
+      "relation": "requires",
+      "target": "distributed-systems"
+    },
+    {
+      "source": "replication-and-consensus",
+      "relation": "requires",
+      "target": "time-and-ordering"
+    },
+    {
+      "source": "replication-and-consensus",
+      "relation": "supported_by",
+      "target": "ongaro-2014-raft"
+    },
+    {
+      "source": "requirements-and-specifications",
+      "relation": "related_to",
+      "target": "api-design"
+    },
+    {
+      "source": "requirements-and-specifications",
+      "relation": "related_to",
+      "target": "architecture"
+    },
+    {
+      "source": "requirements-and-specifications",
+      "relation": "related_to",
+      "target": "formal-methods"
+    },
+    {
+      "source": "requirements-and-specifications",
+      "relation": "related_to",
+      "target": "testing"
+    },
+    {
+      "source": "requirements-and-specifications",
+      "relation": "requires",
+      "target": "discrete-mathematics"
+    },
+    {
+      "source": "requirements-and-specifications",
+      "relation": "supported_by",
+      "target": "software-construction"
+    },
+    {
+      "source": "resilience-and-idempotency",
+      "relation": "related_to",
+      "target": "http-and-rpc"
+    },
+    {
+      "source": "resilience-and-idempotency",
+      "relation": "related_to",
+      "target": "messaging-and-streams"
+    },
+    {
+      "source": "resilience-and-idempotency",
+      "relation": "related_to",
+      "target": "observability"
+    },
+    {
+      "source": "resilience-and-idempotency",
+      "relation": "related_to",
+      "target": "transactions"
+    },
+    {
+      "source": "resilience-and-idempotency",
+      "relation": "requires",
+      "target": "distributed-systems"
+    },
+    {
+      "source": "resilience-and-idempotency",
+      "relation": "requires",
+      "target": "queues"
+    },
+    {
+      "source": "resilience-and-idempotency",
+      "relation": "supported_by",
+      "target": "http-semantics"
+    },
+    {
+      "source": "resilience-and-idempotency",
+      "relation": "supported_by",
+      "target": "sre-book"
+    },
+    {
+      "source": "runtimes-and-execution",
+      "relation": "related_to",
+      "target": "compilers"
+    },
+    {
+      "source": "runtimes-and-execution",
+      "relation": "related_to",
+      "target": "debugging-and-profiling"
+    },
+    {
+      "source": "runtimes-and-execution",
+      "relation": "related_to",
+      "target": "io-and-event-loops"
+    },
+    {
+      "source": "runtimes-and-execution",
+      "relation": "related_to",
+      "target": "processes-and-threads"
+    },
+    {
+      "source": "runtimes-and-execution",
+      "relation": "requires",
+      "target": "memory-management"
+    },
+    {
+      "source": "runtimes-and-execution",
+      "relation": "requires",
+      "target": "programming-languages"
+    },
+    {
+      "source": "runtimes-and-execution",
+      "relation": "supported_by",
+      "target": "language-specifications"
+    },
+    {
+      "source": "runtimes-and-execution",
+      "relation": "supported_by",
+      "target": "operating-systems-book"
+    },
+    {
+      "source": "rust",
+      "relation": "compares_with",
+      "target": "c"
+    },
+    {
+      "source": "rust",
+      "relation": "compares_with",
+      "target": "cpp"
+    },
+    {
+      "source": "rust",
+      "relation": "compares_with",
+      "target": "go"
+    },
+    {
+      "source": "rust",
+      "relation": "related_to",
+      "target": "synchronization"
+    },
+    {
+      "source": "rust",
+      "relation": "requires",
+      "target": "memory-management"
+    },
+    {
+      "source": "rust",
+      "relation": "requires",
+      "target": "type-systems"
+    },
+    {
+      "source": "rust",
+      "relation": "supported_by",
+      "target": "language-specifications"
+    },
+    {
+      "source": "searching",
+      "relation": "related_to",
+      "target": "sorting"
+    },
+    {
+      "source": "searching",
+      "relation": "related_to",
+      "target": "trees"
+    },
+    {
+      "source": "searching",
+      "relation": "requires",
+      "target": "arrays-and-linked-lists"
+    },
+    {
+      "source": "searching",
+      "relation": "requires",
+      "target": "discrete-mathematics"
+    },
+    {
+      "source": "searching",
+      "relation": "supported_by",
+      "target": "algorithms-reference"
+    },
+    {
+      "source": "security-engineering",
+      "relation": "related_to",
+      "target": "ai-assisted-development"
+    },
+    {
+      "source": "security-engineering",
+      "relation": "related_to",
+      "target": "build-and-dependencies"
+    },
+    {
+      "source": "security-engineering",
+      "relation": "related_to",
+      "target": "computer-networks"
+    },
+    {
+      "source": "security-engineering",
+      "relation": "related_to",
+      "target": "databases"
+    },
+    {
+      "source": "security-engineering",
+      "relation": "requires",
+      "target": "api-design"
+    },
+    {
+      "source": "security-engineering",
+      "relation": "requires",
+      "target": "requirements-and-specifications"
+    },
+    {
+      "source": "security-engineering",
+      "relation": "supported_by",
+      "target": "security-guides"
+    },
+    {
+      "source": "security-guides",
+      "relation": "explains",
+      "target": "security-engineering"
+    },
+    {
+      "source": "software-construction",
+      "relation": "explains",
+      "target": "build-and-dependencies"
+    },
+    {
+      "source": "software-construction",
+      "relation": "explains",
+      "target": "ci-cd"
+    },
+    {
+      "source": "software-construction",
+      "relation": "explains",
+      "target": "requirements-and-specifications"
+    },
+    {
+      "source": "software-construction",
+      "relation": "explains",
+      "target": "software-design"
+    },
+    {
+      "source": "software-construction",
+      "relation": "explains",
+      "target": "testing"
+    },
+    {
+      "source": "software-construction",
+      "relation": "explains",
+      "target": "version-control"
+    },
+    {
+      "source": "software-design",
+      "relation": "contains",
+      "target": "api-design"
+    },
+    {
+      "source": "software-design",
+      "relation": "contains",
+      "target": "architecture"
+    },
+    {
+      "source": "software-design",
+      "relation": "contains",
+      "target": "design-patterns"
+    },
+    {
+      "source": "software-design",
+      "relation": "related_to",
+      "target": "requirements-and-specifications"
+    },
+    {
+      "source": "software-design",
+      "relation": "related_to",
+      "target": "testing"
+    },
+    {
+      "source": "software-design",
+      "relation": "requires",
+      "target": "programming-paradigms"
+    },
+    {
+      "source": "software-design",
+      "relation": "supported_by",
+      "target": "design-patterns-book"
+    },
+    {
+      "source": "software-design",
+      "relation": "supported_by",
+      "target": "software-construction"
+    },
+    {
+      "source": "sorting",
+      "relation": "requires",
+      "target": "algorithm-analysis"
+    },
+    {
+      "source": "sorting",
+      "relation": "requires",
+      "target": "arrays-and-linked-lists"
+    },
+    {
+      "source": "sorting",
+      "relation": "supported_by",
+      "target": "algorithms-reference"
+    },
+    {
+      "source": "sorting",
+      "relation": "used_by",
+      "target": "indexes-and-query-planning"
+    },
+    {
+      "source": "sorting",
+      "relation": "uses",
+      "target": "heaps"
+    },
+    {
+      "source": "sorting",
+      "relation": "uses",
+      "target": "recursion-and-backtracking"
+    },
+    {
+      "source": "sre-book",
+      "relation": "explains",
+      "target": "ci-cd"
+    },
+    {
+      "source": "sre-book",
+      "relation": "explains",
+      "target": "distributed-systems"
+    },
+    {
+      "source": "sre-book",
+      "relation": "explains",
+      "target": "messaging-and-streams"
+    },
+    {
+      "source": "sre-book",
+      "relation": "explains",
+      "target": "observability"
+    },
+    {
+      "source": "sre-book",
+      "relation": "explains",
+      "target": "performance-engineering"
+    },
+    {
+      "source": "sre-book",
+      "relation": "explains",
+      "target": "resilience-and-idempotency"
+    },
+    {
+      "source": "stacks",
+      "relation": "related_to",
+      "target": "processes-and-threads"
+    },
+    {
+      "source": "stacks",
+      "relation": "requires",
+      "target": "arrays-and-linked-lists"
+    },
+    {
+      "source": "stacks",
+      "relation": "supported_by",
+      "target": "algorithms-reference"
+    },
+    {
+      "source": "stacks",
+      "relation": "used_by",
+      "target": "graphs"
+    },
+    {
+      "source": "stacks",
+      "relation": "used_by",
+      "target": "parsing-and-asts"
+    },
+    {
+      "source": "stacks",
+      "relation": "used_by",
+      "target": "recursion-and-backtracking"
+    },
+    {
+      "source": "storage-and-recovery",
+      "relation": "related_to",
+      "target": "file-systems"
+    },
+    {
+      "source": "storage-and-recovery",
+      "relation": "related_to",
+      "target": "replication-and-consensus"
+    },
+    {
+      "source": "storage-and-recovery",
+      "relation": "related_to",
+      "target": "transactions"
+    },
+    {
+      "source": "storage-and-recovery",
+      "relation": "related_to",
+      "target": "virtual-memory"
+    },
+    {
+      "source": "storage-and-recovery",
+      "relation": "requires",
+      "target": "arrays-and-linked-lists"
+    },
+    {
+      "source": "storage-and-recovery",
+      "relation": "requires",
+      "target": "databases"
+    },
+    {
+      "source": "storage-and-recovery",
+      "relation": "supported_by",
+      "target": "operating-systems-book"
+    },
+    {
+      "source": "storage-and-recovery",
+      "relation": "supported_by",
+      "target": "postgresql-documentation"
+    },
+    {
+      "source": "structural-patterns",
+      "relation": "related_to",
+      "target": "api-design"
+    },
+    {
+      "source": "structural-patterns",
+      "relation": "related_to",
+      "target": "http-and-rpc"
+    },
+    {
+      "source": "structural-patterns",
+      "relation": "requires",
+      "target": "design-patterns"
+    },
+    {
+      "source": "structural-patterns",
+      "relation": "supported_by",
+      "target": "design-patterns-book"
+    },
+    {
+      "source": "structural-patterns",
+      "relation": "uses",
+      "target": "trees"
+    },
+    {
+      "source": "synchronization",
+      "relation": "related_to",
+      "target": "formal-methods"
+    },
+    {
+      "source": "synchronization",
+      "relation": "related_to",
+      "target": "go"
+    },
+    {
+      "source": "synchronization",
+      "relation": "related_to",
+      "target": "rust"
+    },
+    {
+      "source": "synchronization",
+      "relation": "related_to",
+      "target": "transactions"
+    },
+    {
+      "source": "synchronization",
+      "relation": "requires",
+      "target": "discrete-mathematics"
+    },
+    {
+      "source": "synchronization",
+      "relation": "requires",
+      "target": "processes-and-threads"
+    },
+    {
+      "source": "synchronization",
+      "relation": "supported_by",
+      "target": "language-specifications"
+    },
+    {
+      "source": "synchronization",
+      "relation": "supported_by",
+      "target": "operating-systems-book"
+    },
+    {
+      "source": "testing",
+      "relation": "related_to",
+      "target": "ai-assisted-development"
+    },
+    {
+      "source": "testing",
+      "relation": "related_to",
+      "target": "ci-cd"
+    },
+    {
+      "source": "testing",
+      "relation": "related_to",
+      "target": "debugging-and-profiling"
+    },
+    {
+      "source": "testing",
+      "relation": "related_to",
+      "target": "formal-methods"
+    },
+    {
+      "source": "testing",
+      "relation": "requires",
+      "target": "programming-languages"
+    },
+    {
+      "source": "testing",
+      "relation": "requires",
+      "target": "requirements-and-specifications"
+    },
+    {
+      "source": "testing",
+      "relation": "supported_by",
+      "target": "software-construction"
+    },
+    {
+      "source": "time-and-ordering",
+      "relation": "related_to",
+      "target": "consistency-models"
+    },
+    {
+      "source": "time-and-ordering",
+      "relation": "related_to",
+      "target": "replication-and-consensus"
+    },
+    {
+      "source": "time-and-ordering",
+      "relation": "requires",
+      "target": "discrete-mathematics"
+    },
+    {
+      "source": "time-and-ordering",
+      "relation": "requires",
+      "target": "distributed-systems"
+    },
+    {
+      "source": "time-and-ordering",
+      "relation": "supported_by",
+      "target": "lamport-1978-time-clocks"
+    },
+    {
+      "source": "transactions",
+      "relation": "related_to",
+      "target": "consistency-models"
+    },
+    {
+      "source": "transactions",
+      "relation": "related_to",
+      "target": "distributed-transactions"
+    },
+    {
+      "source": "transactions",
+      "relation": "related_to",
+      "target": "storage-and-recovery"
+    },
+    {
+      "source": "transactions",
+      "relation": "related_to",
+      "target": "synchronization"
+    },
+    {
+      "source": "transactions",
+      "relation": "requires",
+      "target": "relational-model-and-sql"
+    },
+    {
+      "source": "transactions",
+      "relation": "supported_by",
+      "target": "postgresql-documentation"
+    },
+    {
+      "source": "trees",
+      "relation": "related_to",
+      "target": "file-systems"
+    },
+    {
+      "source": "trees",
+      "relation": "related_to",
+      "target": "graphs"
+    },
+    {
+      "source": "trees",
+      "relation": "related_to",
+      "target": "parsing-and-asts"
+    },
+    {
+      "source": "trees",
+      "relation": "requires",
+      "target": "algorithm-analysis"
+    },
+    {
+      "source": "trees",
+      "relation": "supported_by",
+      "target": "algorithms-reference"
+    },
+    {
+      "source": "trees",
+      "relation": "used_by",
+      "target": "heaps"
+    },
+    {
+      "source": "trees",
+      "relation": "used_by",
+      "target": "indexes-and-query-planning"
+    },
+    {
+      "source": "type-systems",
+      "relation": "related_to",
+      "target": "api-design"
+    },
+    {
+      "source": "type-systems",
+      "relation": "related_to",
+      "target": "formal-methods"
+    },
+    {
+      "source": "type-systems",
+      "relation": "requires",
+      "target": "programming-languages"
+    },
+    {
+      "source": "type-systems",
+      "relation": "supported_by",
+      "target": "language-specifications"
+    },
+    {
+      "source": "type-systems",
+      "relation": "used_by",
+      "target": "compilers"
+    },
+    {
+      "source": "type-systems",
+      "relation": "used_by",
+      "target": "csharp"
+    },
+    {
+      "source": "type-systems",
+      "relation": "used_by",
+      "target": "java"
+    },
+    {
+      "source": "type-systems",
+      "relation": "used_by",
+      "target": "rust"
+    },
+    {
+      "source": "type-systems",
+      "relation": "used_by",
+      "target": "typescript"
+    },
+    {
+      "source": "typescript",
+      "relation": "related_to",
+      "target": "api-design"
+    },
+    {
+      "source": "typescript",
+      "relation": "related_to",
+      "target": "compilers"
+    },
+    {
+      "source": "typescript",
+      "relation": "related_to",
+      "target": "testing"
+    },
+    {
+      "source": "typescript",
+      "relation": "requires",
+      "target": "javascript"
+    },
+    {
+      "source": "typescript",
+      "relation": "requires",
+      "target": "type-systems"
+    },
+    {
+      "source": "typescript",
+      "relation": "supported_by",
+      "target": "language-specifications"
+    },
+    {
+      "source": "version-control",
+      "relation": "related_to",
+      "target": "agentic-development"
+    },
+    {
+      "source": "version-control",
+      "relation": "related_to",
+      "target": "ci-cd"
+    },
+    {
+      "source": "version-control",
+      "relation": "related_to",
+      "target": "testing"
+    },
+    {
+      "source": "version-control",
+      "relation": "requires",
+      "target": "graphs"
+    },
+    {
+      "source": "version-control",
+      "relation": "supported_by",
+      "target": "software-construction"
+    },
+    {
+      "source": "vibe-programming",
+      "relation": "compares_with",
+      "target": "agentic-development"
+    },
+    {
+      "source": "vibe-programming",
+      "relation": "related_to",
+      "target": "api-design"
+    },
+    {
+      "source": "vibe-programming",
+      "relation": "related_to",
+      "target": "debugging-and-profiling"
+    },
+    {
+      "source": "vibe-programming",
+      "relation": "requires",
+      "target": "ai-assisted-development"
+    },
+    {
+      "source": "vibe-programming",
+      "relation": "supported_by",
+      "target": "ai-development-evidence"
+    },
+    {
+      "source": "virtual-memory",
+      "relation": "related_to",
+      "target": "memory-management"
+    },
+    {
+      "source": "virtual-memory",
+      "relation": "related_to",
+      "target": "performance-engineering"
+    },
+    {
+      "source": "virtual-memory",
+      "relation": "related_to",
+      "target": "storage-and-recovery"
+    },
+    {
+      "source": "virtual-memory",
+      "relation": "requires",
+      "target": "operating-systems"
+    },
+    {
+      "source": "virtual-memory",
+      "relation": "supported_by",
+      "target": "operating-systems-book"
+    }
+  ]
+}
